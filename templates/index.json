@@ -51,7 +51,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/elle-seeklogo.png",
-            "logo_width": 150,
+            "logo_width": 180,
             "link": ""
           }
         },
@@ -59,7 +59,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/cosmopolitan-seeklogo.png",
-            "logo_width": 150,
+            "logo_width": 180,
             "link": ""
           }
         },
@@ -67,7 +67,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/vogue-seeklogo.png",
-            "logo_width": 150,
+            "logo_width": 180,
             "link": ""
           }
         },
@@ -75,7 +75,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/marie-claire-vector-logo.svg",
-            "logo_width": 150,
+            "logo_width": 180,
             "link": ""
           }
         }

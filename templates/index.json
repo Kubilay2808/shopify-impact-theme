@@ -43,9 +43,69 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "logo_list_pTrFaz": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_dXCW7Q": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/elle-seeklogo.png",
+            "logo_width": 150,
+            "link": ""
+          }
+        },
+        "logo_BGxCCk": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cosmopolitan-seeklogo.png",
+            "logo_width": 150,
+            "link": ""
+          }
+        },
+        "logo_wpKrwK": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/vogue-seeklogo.png",
+            "logo_width": 150,
+            "link": ""
+          }
+        },
+        "logo_ceFqf7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/marie-claire-vector-logo.svg",
+            "logo_width": 150,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_dXCW7Q",
+        "logo_BGxCCk",
+        "logo_wpKrwK",
+        "logo_ceFqf7"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur :",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
-    "image_with_text_overlay_3LDYpB"
+    "image_with_text_overlay_3LDYpB",
+    "logo_list_pTrFaz"
   ]
 }

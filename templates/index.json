@@ -308,8 +308,12 @@
         "liquid_RpGe96": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"display: flex; flex-direction: column; gap: 1px; font-family: sans-serif; max-width: 400px; margin: auto;\">\n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>1 à 2 bonnets en plus instantanément</span>\n  </div>\n  \n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>Maintien parfait et confort</span>\n  </div>\n  \n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>Réutilisable et facile à nettoyer</span>\n  </div>\n</div>"
+            "liquid": "<div style=\"display: flex; flex-direction: column; gap: 0px; font-family: sans-serif; max-width: 400px; margin: auto;\">\n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>1 à 2 bonnets en plus instantanément</span>\n  </div>\n  \n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>Maintien parfait et confort</span>\n  </div>\n  \n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>Réutilisable et facile à nettoyer</span>\n  </div>\n</div>"
           }
+        },
+        "separator_AbAqW3": {
+          "type": "separator",
+          "settings": {}
         },
         "description_d968tc": {
           "type": "description",
@@ -356,6 +360,7 @@
         "rating_Wzg8pE",
         "separator_qWdpwK",
         "liquid_RpGe96",
+        "separator_AbAqW3",
         "description_d968tc",
         "variant_picker_ty87TP",
         "quantity_selector_Ayb3Mw",

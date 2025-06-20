@@ -168,7 +168,7 @@
           "settings": {
             "image": "shopify://shop_images/a70f490c-bf13-4eb6-b87d-b2b3bd3d566c.png",
             "column_size": "3",
-            "title": "Lucie S.",
+            "title": "Sofia B.",
             "heading_tag": "h4",
             "content": "<p>\"C'est tout simplement le meilleur soutien-gorge adhésif que j'ai jamais essayé. Il tient parfaitement des deux côtés, je l'ai porté plus de 10 heures et il est resté collant toute la journée.\"</p>",
             "link_url": "",
@@ -192,7 +192,7 @@
         "item_9JJVq4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/196b0411-2365-412c-84ff-28cfe961e605.png",
+            "image": "shopify://shop_images/594569.png",
             "column_size": "3",
             "title": "Anaïs D.",
             "heading_tag": "h4",
@@ -231,7 +231,7 @@
         "item_XQXC8j": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/2c1ab3eb-556a-49fe-983d-22d4ae202379.png",
+            "image": "shopify://shop_images/55.png",
             "column_size": "3",
             "title": "Emilie C.",
             "heading_tag": "h4",
@@ -263,6 +263,109 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_product_Y6jNdW": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_BcriWK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(878 avis)</span>\n    </a>"
+          }
+        },
+        "title_P7nTE9": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_jQkWFA": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_bUj7fq": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Wzg8pE": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_qWdpwK": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_d968tc": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_ty87TP": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_Ayb3Mw": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_nT8pYY": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_mp6RXC": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_BcriWK",
+        "title_P7nTE9",
+        "badges_jQkWFA",
+        "price_bUj7fq",
+        "rating_Wzg8pE",
+        "separator_qWdpwK",
+        "description_d968tc",
+        "variant_picker_ty87TP",
+        "quantity_selector_Ayb3Mw",
+        "buy_buttons_nT8pYY",
+        "pickup_availability_mp6RXC"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "sleekee-smoothup™",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -271,6 +374,7 @@
     "image_with_text_overlay_wTxKPA",
     "rich_text_ngf3ef",
     "video_wR6gV4",
-    "multi_column_b4czxG"
+    "multi_column_b4czxG",
+    "featured_product_Y6jNdW"
   ]
 }

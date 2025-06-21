@@ -279,14 +279,18 @@
             "heading_tag": "h2"
           }
         },
+        "separator_XqCTPi": {
+          "type": "separator",
+          "settings": {}
+        },
         "badges_jQkWFA": {
           "type": "badges",
           "settings": {}
         },
-        "price_bUj7fq": {
-          "type": "price",
+        "liquid_RpGe96": {
+          "type": "liquid",
           "settings": {
-            "show_taxes_notice": false
+            "liquid": "<div style=\"display: flex; flex-direction: column; gap: 0px; font-family: ; max-width: 400px; margin: auto;\">\n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>1 à 2 bonnets en plus instantanément</span>\n  </div>\n  \n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>Maintien parfait et confort</span>\n  </div>\n  \n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>Réutilisable et facile à nettoyer</span>\n  </div>\n</div>"
           }
         },
         "liquid_8AiYAJ": {
@@ -301,39 +305,17 @@
             "show_empty": false
           }
         },
-        "separator_qWdpwK": {
-          "type": "separator",
-          "settings": {}
-        },
-        "liquid_RpGe96": {
-          "type": "liquid",
+        "kaching_bundles_app_block_JWgdL7": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "liquid": "<div style=\"display: flex; flex-direction: column; gap: 0px; font-family: ; max-width: 400px; margin: auto;\">\n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>1 à 2 bonnets en plus instantanément</span>\n  </div>\n  \n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>Maintien parfait et confort</span>\n  </div>\n  \n  <div style=\"display: flex; align-items: center;\">\n    <span style=\"color: #FF914D; font-size: 20px; margin-right: 8px;\">✔</span>\n    <span>Réutilisable et facile à nettoyer</span>\n  </div>\n</div>"
+            "product": "sleekee-smoothup™"
           }
-        },
-        "separator_AbAqW3": {
-          "type": "separator",
-          "settings": {}
         },
         "description_d968tc": {
           "type": "description",
           "settings": {
             "collapse_content": false
           }
-        },
-        "variant_picker_ty87TP": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_Ayb3Mw": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy_buttons_nT8pYY": {
           "type": "buy_buttons",
@@ -354,16 +336,13 @@
       "block_order": [
         "liquid_BcriWK",
         "title_P7nTE9",
+        "separator_XqCTPi",
         "badges_jQkWFA",
-        "price_bUj7fq",
+        "liquid_RpGe96",
         "liquid_8AiYAJ",
         "rating_Wzg8pE",
-        "separator_qWdpwK",
-        "liquid_RpGe96",
-        "separator_AbAqW3",
+        "kaching_bundles_app_block_JWgdL7",
         "description_d968tc",
-        "variant_picker_ty87TP",
-        "quantity_selector_Ayb3Mw",
         "buy_buttons_nT8pYY",
         "pickup_availability_mp6RXC"
       ],

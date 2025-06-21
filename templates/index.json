@@ -37,6 +37,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Banner.png",
+        "mobile_image": "shopify://shop_images/d1a0cbcb-db71-47c0-b67c-3b05f650fb83_33a1fa24-c102-4cdb-bc27-659329ca42c3.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -239,6 +240,14 @@
         "pickup_availability_mp6RXC": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "image_rYeMxF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/payn.webp",
+            "alignment": "center",
+            "max_width": 420
+          }
         }
       },
       "block_order": [
@@ -254,7 +263,8 @@
         "kaching_bundles_app_block_JWgdL7",
         "description_d968tc",
         "buy_buttons_nT8pYY",
-        "pickup_availability_mp6RXC"
+        "pickup_availability_mp6RXC",
+        "image_rYeMxF"
       ],
       "name": "Featured product",
       "settings": {

@@ -233,6 +233,12 @@
         "pickup_availability_mp6RXC": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "liquid_8AYHzG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .size-guide-link {\n    color: #ECC485; /* Couleur assortie à ton thème */\n    font-weight: bold;\n    text-decoration: underline;\n    cursor: pointer;\n  }\n</style>\n\n<a class=\"size-guide-link\" href=\"https://cdn.shopify.com/s/files/1/0920/8132/4412/files/0ckggs-rp-1750189064324.jpg?v=1750526407\" target=\"_blank\">\n  📏 Guide des tailles\n</a>"
+          }
         }
       },
       "block_order": [
@@ -247,7 +253,8 @@
         "kaching_bundles_app_block_JWgdL7",
         "description_d968tc",
         "buy_buttons_nT8pYY",
-        "pickup_availability_mp6RXC"
+        "pickup_availability_mp6RXC",
+        "liquid_8AYHzG"
       ],
       "name": "Featured product",
       "settings": {

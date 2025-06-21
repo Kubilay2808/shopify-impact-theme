@@ -160,6 +160,114 @@
         "overlay_opacity": 0
       }
     },
+    "featured_product_Y6jNdW": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_BcriWK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(878 avis)</span>\n    </a>"
+          }
+        },
+        "title_P7nTE9": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price_b9EdVh": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator_XqCTPi": {
+          "type": "separator",
+          "settings": {}
+        },
+        "badges_jQkWFA": {
+          "type": "badges",
+          "settings": {}
+        },
+        "liquid_RpGe96": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .check-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  .check-list li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n    font-size: 16px;\n  }\n  .check-icon {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ECC485;\n    color: #fff;\n    border-radius: 50%;\n    width: 18px;\n    height: 18px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <span class=\"check-icon\">✓</span>\n    1 à 2 bonnets en plus instantanément\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Maintien et confort parfait\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Résistant à l'eau et à la transpiration\n  </li>\n</ul>\n <span class=\"check-icon\">✓</span>\n    Facilement lavable et réutilisable plus de 30 fois\n  </li>\n</ul>"
+          }
+        },
+        "liquid_8AiYAJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');\n\n  #notification-banner {\n    display: flex;\n    align-items: center;\n    font-family: 'Poppins', Arial, sans-serif;\n    font-weight: 700;\n    color: #FFA500; /* orange */\n    font-size: 14px; /* adapte selon ton design */\n    margin: 0; /* enlève marges parasites */\n  }\n\n  #notification-banner .ripple-circle {\n    position: relative;\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background-color: #FFA500;\n    margin-right: 6px;\n  }\n\n  #notification-banner .ripple-circle::before,\n  #notification-banner .ripple-circle::after {\n    content: \"\";\n    position: absolute;\n    top: 0; left: 0; bottom: 0; right: 0;\n    border: 1px solid #FFA500;\n    border-radius: 50%;\n    animation: ripple 2s linear infinite;\n  }\n\n  #notification-banner .ripple-circle::after {\n    animation-delay: 1s;\n  }\n\n  @keyframes ripple {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.5);\n      opacity: 0.5;\n    }\n    100% {\n      transform: scale(2);\n      opacity: 0;\n    }\n  }\n</style>\n\n<div id=\"notification-banner\">\n  <div class=\"ripple-circle\"></div>\n  <div>En stock : Quantités très limitées</div>\n</div>"
+          }
+        },
+        "rating_Wzg8pE": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "kaching_bundles_app_block_JWgdL7": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "sleekee-smoothup™"
+          }
+        },
+        "description_d968tc": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "buy_buttons_nT8pYY": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#d4a056",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_mp6RXC": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_BcriWK",
+        "title_P7nTE9",
+        "price_b9EdVh",
+        "separator_XqCTPi",
+        "badges_jQkWFA",
+        "liquid_RpGe96",
+        "liquid_8AiYAJ",
+        "rating_Wzg8pE",
+        "kaching_bundles_app_block_JWgdL7",
+        "description_d968tc",
+        "buy_buttons_nT8pYY",
+        "pickup_availability_mp6RXC"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "sleekee-smoothup™",
+        "desktop_media_width": 60,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "multi_column_b4czxG": {
       "type": "multi-column",
       "blocks": {
@@ -262,114 +370,6 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "featured_product_Y6jNdW": {
-      "type": "featured-product",
-      "blocks": {
-        "liquid_BcriWK": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(878 avis)</span>\n    </a>"
-          }
-        },
-        "title_P7nTE9": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "price_b9EdVh": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "separator_XqCTPi": {
-          "type": "separator",
-          "settings": {}
-        },
-        "badges_jQkWFA": {
-          "type": "badges",
-          "settings": {}
-        },
-        "liquid_RpGe96": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .check-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  .check-list li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n    font-size: 16px;\n  }\n  .check-icon {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ECC485;\n    color: #fff;\n    border-radius: 50%;\n    width: 18px;\n    height: 18px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <span class=\"check-icon\">✓</span>\n    1 à 2 bonnets en plus instantanément\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Maintien et confort parfait\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Résistant à l'eau et à la transpiration\n  </li>\n</ul>\n <span class=\"check-icon\">✓</span>\n    Facilement lavable et réutilisable plus de 30 fois\n  </li>\n</ul>"
-          }
-        },
-        "liquid_8AiYAJ": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');\n\n  #notification-banner {\n    display: flex;\n    align-items: center;\n    font-family: 'Poppins', Arial, sans-serif;\n    font-weight: 700;\n    color: #FFA500; /* orange */\n    font-size: 14px; /* adapte selon ton design */\n    margin: 0; /* enlève marges parasites */\n  }\n\n  #notification-banner .ripple-circle {\n    position: relative;\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background-color: #FFA500;\n    margin-right: 6px;\n  }\n\n  #notification-banner .ripple-circle::before,\n  #notification-banner .ripple-circle::after {\n    content: \"\";\n    position: absolute;\n    top: 0; left: 0; bottom: 0; right: 0;\n    border: 1px solid #FFA500;\n    border-radius: 50%;\n    animation: ripple 2s linear infinite;\n  }\n\n  #notification-banner .ripple-circle::after {\n    animation-delay: 1s;\n  }\n\n  @keyframes ripple {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.5);\n      opacity: 0.5;\n    }\n    100% {\n      transform: scale(2);\n      opacity: 0;\n    }\n  }\n</style>\n\n<div id=\"notification-banner\">\n  <div class=\"ripple-circle\"></div>\n  <div>En stock : Quantités très limitées</div>\n</div>"
-          }
-        },
-        "rating_Wzg8pE": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "kaching_bundles_app_block_JWgdL7": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "sleekee-smoothup™"
-          }
-        },
-        "description_d968tc": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "buy_buttons_nT8pYY": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#d4a056",
-            "atc_button_text_color": "#ffffff",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_mp6RXC": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "liquid_BcriWK",
-        "title_P7nTE9",
-        "price_b9EdVh",
-        "separator_XqCTPi",
-        "badges_jQkWFA",
-        "liquid_RpGe96",
-        "liquid_8AiYAJ",
-        "rating_Wzg8pE",
-        "kaching_bundles_app_block_JWgdL7",
-        "description_d968tc",
-        "buy_buttons_nT8pYY",
-        "pickup_availability_mp6RXC"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "sleekee-smoothup™",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "grid_highlight",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     }
   },

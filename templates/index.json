@@ -388,6 +388,109 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "images_with_text_scrolling_cTGbp4": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_R969gm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/siteee.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>💎 <strong>Invisible sous toutes vos tenues</strong><br/><br/>Conçu spécialement pour les dos nus, bustiers et robes ajustées : aucun fil, aucune bretelle, aucun compromis.</p><p>💎 <strong>Effet push-up naturel immédiat</strong><br/><br/>Offre 1 à 2 bonnets en plus pour un décolleté sublimé en quelques secondes.</p><p>💎 <strong>Maintien sûr et confort longue durée</strong><br/><br/>Grâce à sa matière douce et flexible, il épouse parfaitement la poitrine sans tiraillement, comme une seconde peau.</p>"
+          }
+        },
+        "item_TrEDaG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/69a99743-7f84-40d7-ae48-0a25ad2be48f.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>💎 <strong>Réutilisable plus de 25 fois</strong><br/><br/>Adhésif de qualité premium : un simple lavage à l'eau tiède et il est prêt pour une nouvelle utilisation.</p><p>💎 <strong>Résistant à l’eau et à la transpiration</strong><br/><br/>Idéal pour les journées chaudes, soirées dansantes ou mariages : il reste bien en place jusqu’au bout.</p><p>💎 <strong>Facile à positionner et à retirer sans douleur</strong><br/><br/>Un geste simple, un résultat parfait — sans traces ni résidus.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_R969gm",
+        "item_TrEDaG"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq_aNhmfa": {
+      "type": "faq",
+      "blocks": {
+        "item_yHzgNk": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir ma taille ?",
+            "content": "<p>Nous vous recommandons de choisir votre taille de soutien gorge actuelle. Si vous êtes entre deux tailles, nous vous recommandons de choisir la plus grande.</p><p>Vous pouvez également consulter le guide des tailles.</p>"
+          }
+        },
+        "item_xwNcpw": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que je peux le nettoyer ?",
+            "content": "<p>Le Sleeky SmoothUp est fabriqué avec un adhésif en silicone lavable. Ce qui signifie qu'il peut être facilement nettoyé avec de l'eau tiède et du savon.</p><p>Laissez ensuite sécher et ne recollez le film sur le soutien gorge que lorsqu'il est complètement sec.</p>"
+          }
+        },
+        "item_Bemefw": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que je peux l'échanger ?",
+            "content": "<p>Nous vous offrons un échange sans problème grâce à notre garantie d'échange  gratuit.</p><p>Si la taille ne convient pas, nous vous enverrons celui adapté à vous gratuitement.</p>"
+          }
+        },
+        "item_PQgD9f": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de fois est-ce que je peux l'utiliser ?",
+            "content": "<p>Avec un bon entretien, Sleekee SmoothUp peut-être utilisé plus de 30 fois.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_yHzgNk",
+        "item_xwNcpw",
+        "item_Bemefw",
+        "item_PQgD9f"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Pour toute question supplémentaire, veuillez nous contacter au service client : support@sleekee.fr",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#1a1a1a",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "rgba(0,0,0,0)",
+        "accordion_background": "rgba(0,0,0,0)",
+        "accordion_text_color": "#393939"
+      }
     }
   },
   "order": [
@@ -397,6 +500,8 @@
     "rich_text_ngf3ef",
     "video_wR6gV4",
     "multi_column_b4czxG",
-    "featured_product_Y6jNdW"
+    "featured_product_Y6jNdW",
+    "images_with_text_scrolling_cTGbp4",
+    "faq_aNhmfa"
   ]
 }

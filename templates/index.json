@@ -127,7 +127,7 @@
           "type": "heading",
           "settings": {
             "text": "Voyez la différence Avec/Sans",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -159,6 +159,110 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "multi_column_b4czxG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_trgWqw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/a70f490c-bf13-4eb6-b87d-b2b3bd3d566c.png",
+            "column_size": "3",
+            "title": "Sofia B.",
+            "heading_tag": "h4",
+            "content": "<p>\"C'est tout simplement le meilleur soutien-gorge adhésif que j'ai jamais essayé. Il tient parfaitement des deux côtés, je l'ai porté plus de 10 heures et il est resté collant toute la journée.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_4tkNa9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SnapInsta.to_467321817_17986821644766320_4455698533335326133_n.jpg",
+            "column_size": "3",
+            "title": "Sophie V.",
+            "heading_tag": "h4",
+            "content": "<p>\"Ils soulèvent vraiment bien une fois qu'on a compris le principe. Je pense que c'est une excellente solution, surtout si vous souhaitez un joli décolleté sans que les bretelles se voient.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_9JJVq4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/594569.png",
+            "column_size": "3",
+            "title": "Anaïs D.",
+            "heading_tag": "h4",
+            "content": "<p>\"Je le recommande vivement, je suis tombée sur ce soutien gorge adhésif par hasard. Il a parfaitement mis en valeur mon haut et il est passé inaperçu. Mon mari a beaucoup aimé l'effet.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_geUmdM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/monokas-pushpads-2-seitig-klebende-nippelcover-perfekt-fur-den-sommer-344474.webp",
+            "column_size": "3",
+            "title": "Anna M.",
+            "heading_tag": "h4",
+            "content": "<p>\"Je cherchais une solution pour pouvoir porter des tops et des robes sans bretelles sans avoir à me soucier des marques de soutien-gorge. Celui-ci est juste parfait !\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WcHFnd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1cc9aecb-caf6-48ba-8087-3c481d4a4bdf.png",
+            "column_size": "3",
+            "title": "Léa P.",
+            "heading_tag": "h4",
+            "content": "<p>\"La différence est dingue !<br/>C'est vraiment incroyable à quel point il vous donne un coup de pouce. Il est resté bien en place toute la journée et personne ne l'a remarqué.<br/>Excellent produit et excellente idée.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_XQXC8j": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/55.png",
+            "column_size": "3",
+            "title": "Emilie C.",
+            "heading_tag": "h4",
+            "content": "<p>\"À première vue, on pourrait penser que j'ai une grosse poitrine alors que pas du tout. Je fais un bonnet A mais grâce au Pushup de Sleekee j'ai l'impression de faire un bonnet C !\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_trgWqw",
+        "item_4tkNa9",
+        "item_9JJVq4",
+        "item_geUmdM",
+        "item_WcHFnd",
+        "item_XQXC8j"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Nos clientes en parlent le mieux",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "featured_product_Y6jNdW": {
@@ -284,110 +388,6 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
-    },
-    "multi_column_b4czxG": {
-      "type": "multi-column",
-      "blocks": {
-        "item_trgWqw": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/a70f490c-bf13-4eb6-b87d-b2b3bd3d566c.png",
-            "column_size": "3",
-            "title": "Sofia B.",
-            "heading_tag": "h4",
-            "content": "<p>\"C'est tout simplement le meilleur soutien-gorge adhésif que j'ai jamais essayé. Il tient parfaitement des deux côtés, je l'ai porté plus de 10 heures et il est resté collant toute la journée.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_4tkNa9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/SnapInsta.to_467321817_17986821644766320_4455698533335326133_n.jpg",
-            "column_size": "3",
-            "title": "Sophie V.",
-            "heading_tag": "h4",
-            "content": "<p>\"Ils soulèvent vraiment bien une fois qu'on a compris le principe. Je pense que c'est une excellente solution, surtout si vous souhaitez un joli décolleté sans que les bretelles se voient.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_9JJVq4": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/594569.png",
-            "column_size": "3",
-            "title": "Anaïs D.",
-            "heading_tag": "h4",
-            "content": "<p>\"Je le recommande vivement, je suis tombée sur ce soutien gorge adhésif par hasard. Il a parfaitement mis en valeur mon haut et il est passé inaperçu. Mon mari a beaucoup aimé l'effet.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_geUmdM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/monokas-pushpads-2-seitig-klebende-nippelcover-perfekt-fur-den-sommer-344474.webp",
-            "column_size": "3",
-            "title": "Anna M.",
-            "heading_tag": "h4",
-            "content": "<p>\"Je cherchais une solution pour pouvoir porter des tops et des robes sans bretelles sans avoir à me soucier des marques de soutien-gorge. Celui-ci est juste parfait !\"<br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_WcHFnd": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1cc9aecb-caf6-48ba-8087-3c481d4a4bdf.png",
-            "column_size": "3",
-            "title": "Léa P.",
-            "heading_tag": "h4",
-            "content": "<p>\"La différence est dingue !<br/>C'est vraiment incroyable à quel point il vous donne un coup de pouce. Il est resté bien en place toute la journée et personne ne l'a remarqué.<br/>Excellent produit et excellente idée.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_XQXC8j": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/55.png",
-            "column_size": "3",
-            "title": "Emilie C.",
-            "heading_tag": "h4",
-            "content": "<p>\"À première vue, on pourrait penser que j'ai une grosse poitrine alors que pas du tout. Je fais un bonnet A mais grâce au Pushup de Sleekee j'ai l'impression de faire un bonnet C !\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_trgWqw",
-        "item_4tkNa9",
-        "item_9JJVq4",
-        "item_geUmdM",
-        "item_WcHFnd",
-        "item_XQXC8j"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Nos clientes en parlent le mieux",
-        "content": "",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -396,7 +396,7 @@
     "image_with_text_overlay_wTxKPA",
     "rich_text_ngf3ef",
     "video_wR6gV4",
-    "featured_product_Y6jNdW",
-    "multi_column_b4czxG"
+    "multi_column_b4czxG",
+    "featured_product_Y6jNdW"
   ]
 }

@@ -279,6 +279,12 @@
             "heading_tag": "h2"
           }
         },
+        "price_b9EdVh": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
         "separator_XqCTPi": {
           "type": "separator",
           "settings": {}
@@ -336,6 +342,7 @@
       "block_order": [
         "liquid_BcriWK",
         "title_P7nTE9",
+        "price_b9EdVh",
         "separator_XqCTPi",
         "badges_jQkWFA",
         "liquid_RpGe96",

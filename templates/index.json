@@ -389,46 +389,37 @@
         "input_text_color": ""
       }
     },
-    "images_with_text_scrolling_cTGbp4": {
-      "type": "images-with-text-scrolling",
+    "1750539827059b1aea": {
+      "type": "apps",
       "blocks": {
-        "item_R969gm": {
-          "type": "item",
+        "loox_reviews_loox_agg_section_WTbBdW": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "image": "shopify://shop_images/siteee.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>💎 <strong>Invisible sous toutes vos tenues</strong><br/><br/>Conçu spécialement pour les dos nus, bustiers et robes ajustées : aucun fil, aucune bretelle, aucun compromis.</p><p>💎 <strong>Effet push-up naturel immédiat</strong><br/><br/>Offre 1 à 2 bonnets en plus pour un décolleté sublimé en quelques secondes.</p><p>💎 <strong>Maintien sûr et confort longue durée</strong><br/><br/>Grâce à sa matière douce et flexible, il épouse parfaitement la poitrine sans tiraillement, comme une seconde peau.</p>"
-          }
-        },
-        "item_TrEDaG": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/69a99743-7f84-40d7-ae48-0a25ad2be48f.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>💎 <strong>Réutilisable plus de 25 fois</strong><br/><br/>Adhésif de qualité premium : un simple lavage à l'eau tiède et il est prêt pour une nouvelle utilisation.</p><p>💎 <strong>Résistant à l’eau et à la transpiration</strong><br/><br/>Idéal pour les journées chaudes, soirées dansantes ou mariages : il reste bien en place jusqu’au bout.</p><p>💎 <strong>Facile à positionner et à retirer sans douleur</strong><br/><br/>Un geste simple, un résultat parfait — sans traces ni résidus.</p>"
+            "only_photos": false,
+            "hide_thumbnails": true,
+            "product_handle": "sleekee-smoothup™",
+            "aggregated": true,
+            "data-limit": 10,
+            "maxwidth": 1080,
+            "is_sample": false
           }
         }
       },
       "block_order": [
-        "item_R969gm",
-        "item_TrEDaG"
+        "loox_reviews_loox_agg_section_WTbBdW"
       ],
-      "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "faq_aNhmfa": {
@@ -491,39 +482,6 @@
         "accordion_background": "rgba(0,0,0,0)",
         "accordion_text_color": "#393939"
       }
-    },
-    "1750539827059b1aea": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_WTbBdW": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_WTbBdW"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
     }
   },
   "order": [
@@ -534,8 +492,7 @@
     "video_wR6gV4",
     "multi_column_b4czxG",
     "featured_product_Y6jNdW",
-    "images_with_text_scrolling_cTGbp4",
-    "faq_aNhmfa",
-    "1750539827059b1aea"
+    "1750539827059b1aea",
+    "faq_aNhmfa"
   ]
 }

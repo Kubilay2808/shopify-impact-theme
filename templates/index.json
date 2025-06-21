@@ -358,7 +358,7 @@
         "full_width": true,
         "product": "sleekee-smoothup™",
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": true,
@@ -379,7 +379,7 @@
     "image_with_text_overlay_wTxKPA",
     "rich_text_ngf3ef",
     "video_wR6gV4",
-    "multi_column_b4czxG",
-    "featured_product_Y6jNdW"
+    "featured_product_Y6jNdW",
+    "multi_column_b4czxG"
   ]
 }

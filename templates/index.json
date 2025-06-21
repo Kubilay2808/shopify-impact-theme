@@ -195,6 +195,12 @@
             "liquid": "<style>\n  .check-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  .check-list li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n    font-size: 16px;\n  }\n  .check-icon {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ECC485;\n    color: #fff;\n    border-radius: 50%;\n    width: 18px;\n    height: 18px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <span class=\"check-icon\">✓</span>\n    1 à 2 bonnets en plus instantanément\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Maintien et confort parfait\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Résistant à l'eau et à la transpiration\n  </li>\n</ul>\n <span class=\"check-icon\">✓</span>\n    Facilement lavable et réutilisable plus de 30 fois\n  </li>\n</ul>"
           }
         },
+        "liquid_8AYHzG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .size-guide-link {\n    color: #; /* Couleur assortie à ton thème */\n    font-weight: bold;\n    text-decoration: underline;\n    cursor: pointer;\n  }\n</style>\n\n<a class=\"size-guide-link\" href=\"https://cdn.shopify.com/s/files/1/0920/8132/4412/files/0ckggs-rp-1750189064324.jpg?v=1750526407\" target=\"_blank\">\n 🚩 Guide des tailles\n</a>"
+          }
+        },
         "liquid_8AiYAJ": {
           "type": "liquid",
           "settings": {
@@ -233,12 +239,6 @@
         "pickup_availability_mp6RXC": {
           "type": "pickup_availability",
           "settings": {}
-        },
-        "liquid_8AYHzG": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .size-guide-link {\n    color: #ECC485; /* Couleur assortie à ton thème */\n    font-weight: bold;\n    text-decoration: underline;\n    cursor: pointer;\n  }\n</style>\n\n<a class=\"size-guide-link\" href=\"https://cdn.shopify.com/s/files/1/0920/8132/4412/files/0ckggs-rp-1750189064324.jpg?v=1750526407\" target=\"_blank\">\n  📏 Guide des tailles\n</a>"
-          }
         }
       },
       "block_order": [
@@ -248,13 +248,13 @@
         "separator_XqCTPi",
         "badges_jQkWFA",
         "liquid_RpGe96",
+        "liquid_8AYHzG",
         "liquid_8AiYAJ",
         "rating_Wzg8pE",
         "kaching_bundles_app_block_JWgdL7",
         "description_d968tc",
         "buy_buttons_nT8pYY",
-        "pickup_availability_mp6RXC",
-        "liquid_8AYHzG"
+        "pickup_availability_mp6RXC"
       ],
       "name": "Featured product",
       "settings": {

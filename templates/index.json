@@ -335,10 +335,18 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#d4a056",
+            "atc_button_background": "#ecc485",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "image_Ngf9NU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cccccc.png",
+            "alignment": "center",
+            "max_width": 500
           }
         },
         "pickup_availability_mp6RXC": {
@@ -367,6 +375,7 @@
         "kaching_bundles_app_block_JWgdL7",
         "description_d968tc",
         "buy_buttons_nT8pYY",
+        "image_Ngf9NU",
         "pickup_availability_mp6RXC",
         "image_rYeMxF"
       ],
@@ -387,39 +396,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "1750539827059b1aea": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_WTbBdW": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": true,
-            "product_handle": "sleekee-smoothup™",
-            "aggregated": true,
-            "data-limit": 10,
-            "maxwidth": 1080,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_WTbBdW"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
       }
     },
     "faq_aNhmfa": {
@@ -467,7 +443,7 @@
         "title": "FAQ",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Pour toute question supplémentaire, veuillez nous contacter au service client : support@sleekee.fr",
+        "support_hours": "",
         "answer_time": "",
         "button_text": "",
         "button_url": "",
@@ -482,6 +458,60 @@
         "accordion_background": "rgba(0,0,0,0)",
         "accordion_text_color": "#393939"
       }
+    },
+    "contact_kjEYQf": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7j/7. Temps de réponse moyen : 24h.",
+        "title": "Une Question ?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus bref délais.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#ecc485",
+        "button_text_color": ""
+      }
+    },
+    "1750539827059b1aea": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_WTbBdW": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": true,
+            "product_handle": "sleekee-smoothup™",
+            "aggregated": true,
+            "data-limit": 10,
+            "maxwidth": 1080,
+            "is_sample": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_WTbBdW"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -492,7 +522,8 @@
     "video_wR6gV4",
     "multi_column_b4czxG",
     "featured_product_Y6jNdW",
-    "1750539827059b1aea",
-    "faq_aNhmfa"
+    "faq_aNhmfa",
+    "contact_kjEYQf",
+    "1750539827059b1aea"
   ]
 }

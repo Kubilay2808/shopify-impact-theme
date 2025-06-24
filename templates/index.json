@@ -326,6 +326,7 @@
         },
         "description_d968tc": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false
           }

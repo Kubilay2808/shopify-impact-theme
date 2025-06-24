@@ -50,7 +50,7 @@
         "message_WEfXmt"
       ],
       "settings": {
-        "enable_sticky": true,
+        "enable_sticky": false,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,

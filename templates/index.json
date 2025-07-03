@@ -471,13 +471,29 @@
             "title": "Combien de fois est-ce que je peux l'utiliser ?",
             "content": "<p>Avec un bon entretien, Sleekee SmoothUp peut-être utilisé plus de 30 fois.</p>"
           }
+        },
+        "item_LXxD7w": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce qu'il tient toute la journée, même en été ?",
+            "content": "<p>Oui, le SmoothUp est conçu pour tenir toute la journée ou soirée, même par temps chaud ou en cas de transpiration. Idéal pour les mariages, soirées ou journées actives !</p>"
+          }
+        },
+        "item_RQzK3y": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce qu'il colle bien sans faire mal à la peau ?",
+            "content": "<p> L’adhésif en silicone est hypoallergénique, doux pour la peau et sans latex. Il colle parfaitement sans irritation. Un confort assuré, même sur peau sensible.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
         "item_yHzgNk",
         "item_xwNcpw",
         "item_Bemefw",
-        "item_PQgD9f"
+        "item_PQgD9f",
+        "item_LXxD7w",
+        "item_RQzK3y"
       ],
       "name": "FAQ",
       "settings": {

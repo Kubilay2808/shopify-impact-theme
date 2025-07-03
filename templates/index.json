@@ -513,22 +513,6 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
-    },
-    "image_with_text_overlay_U9bGWY": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/100_SATISFAIT.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
@@ -541,7 +525,6 @@
     "featured_product_Y6jNdW",
     "faq_aNhmfa",
     "contact_kjEYQf",
-    "1750539827059b1aea",
-    "image_with_text_overlay_U9bGWY"
+    "1750539827059b1aea"
   ]
 }

@@ -104,6 +104,32 @@
         "logo_item_border": ""
       }
     },
+    "rich_text_KTgEEG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HcDXQc": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi vous allez l’adorer 💕",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_HcDXQc"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_wTxKPA": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -126,7 +152,7 @@
         "heading_DVUmUh": {
           "type": "heading",
           "settings": {
-            "text": "Voyez la différence Avec/Sans",
+            "text": "Avant / Après : la magie SmoothUp ✨",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -408,8 +434,8 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/100_SATISFAIT.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -534,6 +560,7 @@
   "order": [
     "image_with_text_overlay_3LDYpB",
     "logo_list_pTrFaz",
+    "rich_text_KTgEEG",
     "image_with_text_overlay_wTxKPA",
     "rich_text_ngf3ef",
     "video_wR6gV4",

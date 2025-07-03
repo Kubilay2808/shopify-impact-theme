@@ -399,6 +399,22 @@
         "input_text_color": ""
       }
     },
+    "image_with_text_overlay_dzK3KT": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/100_SATISFAIT.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "faq_aNhmfa": {
       "type": "faq",
       "blocks": {
@@ -523,6 +539,7 @@
     "video_wR6gV4",
     "multi_column_b4czxG",
     "featured_product_Y6jNdW",
+    "image_with_text_overlay_dzK3KT",
     "faq_aNhmfa",
     "contact_kjEYQf",
     "1750539827059b1aea"

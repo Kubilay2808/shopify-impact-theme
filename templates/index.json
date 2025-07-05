@@ -316,6 +316,14 @@
           "type": "separator",
           "settings": {}
         },
+        "image_PJqeWJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/30_de_rEduction.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "badges_jQkWFA": {
           "type": "badges",
           "settings": {}
@@ -394,6 +402,7 @@
         "title_P7nTE9",
         "price_b9EdVh",
         "separator_XqCTPi",
+        "image_PJqeWJ",
         "badges_jQkWFA",
         "liquid_RpGe96",
         "liquid_8AYHzG",

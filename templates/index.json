@@ -15,20 +15,25 @@
         "heading_fD9Qwt": {
           "type": "heading",
           "settings": {
-            "text": "Redonnez du galbe à votre décolleté, sans compromis sur le confort.",
+            "text": "Révélez votre décolleté en un seul geste.",
             "heading_tag": "h3"
           }
         },
-        "subheading_eXKyep": {
-          "type": "subheading",
+        "button_mYkpE9": {
+          "type": "button",
           "settings": {
-            "text": "Confort invisible, maintien naturel, effet wahou en un seul geste."
+            "style": "fill",
+            "size": "sm",
+            "text": "Acheter maintenant",
+            "url": "",
+            "background": "#ecc485",
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "heading_fD9Qwt",
-        "subheading_eXKyep"
+        "button_mYkpE9"
       ],
       "name": "Image with text overlay",
       "settings": {

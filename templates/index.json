@@ -18,22 +18,10 @@
             "text": "Révélez votre décolleté en un seul geste.",
             "heading_tag": "h3"
           }
-        },
-        "button_mYkpE9": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "sm",
-            "text": "Acheter maintenant",
-            "url": "",
-            "background": "#ecc485",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
-        "heading_fD9Qwt",
-        "button_mYkpE9"
+        "heading_fD9Qwt"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -420,6 +408,7 @@
         "pickup_availability_mp6RXC",
         "image_rYeMxF"
       ],
+      "custom_css": [],
       "name": "Featured product",
       "settings": {
         "full_width": true,

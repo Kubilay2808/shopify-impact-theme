@@ -97,6 +97,53 @@
         "logo_item_border": ""
       }
     },
+    "featured_collection_tLjfjd": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "sleekee-smoothup™",
+          "sleekee™-pushpads-couvre-tetons-push-up-adhesifs-double-face-pour-un-decollete-parfait"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Nos produits",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#f2f2f2",
+        "product_card_text_color": ""
+      }
+    },
+    "image_with_text_overlay_bDQHeg": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/coeu.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_KTgEEG": {
       "type": "rich-text",
       "blocks": {
@@ -290,7 +337,7 @@
         "liquid_BcriWK": {
           "type": "liquid",
           "settings": {
-            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(34 avis)</span>\n    </a>"
+            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(187 avis)</span>\n    </a>"
           }
         },
         "title_P7nTE9": {
@@ -574,11 +621,29 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "17524180870cf66459": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "image_with_text_overlay_3LDYpB",
     "logo_list_pTrFaz",
+    "featured_collection_tLjfjd",
+    "image_with_text_overlay_bDQHeg",
     "rich_text_KTgEEG",
     "image_with_text_overlay_wTxKPA",
     "rich_text_ngf3ef",
@@ -588,6 +653,7 @@
     "image_with_text_overlay_dzK3KT",
     "faq_aNhmfa",
     "contact_kjEYQf",
-    "1750539827059b1aea"
+    "1750539827059b1aea",
+    "17524180870cf66459"
   ]
 }

@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_DXAALT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(43 avis)</span>\n    </a>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -24,10 +30,22 @@
             "show_taxes_notice": false
           }
         },
-        "kaching_bundles_app_block_yDccCP": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+        "liquid_zCXcFa": {
+          "type": "liquid",
           "settings": {
-            "product": "sleekee-smoothup™"
+            "liquid": "<style>\n  .check-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  .check-list li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n    font-size: 16px;\n  }\n  .check-icon {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ECC485;\n    color: #fff;\n    border-radius: 50%;\n    width: 18px;\n    height: 18px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <span class=\"check-icon\">✓</span>\n    2x plus de volume et de galbe en quelques secondes\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Lavables et résistants à la transpiration\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n   Idéals sous tops, robes et tenues ajustées\n  </li>\n</ul>"
+          }
+        },
+        "liquid_gyjkwc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .size-guide-link {\n    color: #; /* Couleur assortie à ton thème */\n    font-weight: bold;\n    text-decoration: underline;\n    cursor: pointer;\n  }\n</style>\n\n<a class=\"size-guide-link\" href=\"https://cdn.shopify.com/s/files/1/0920/8132/4412/files/guide_taille.png?v=1750527115\">\n 🚩 Guide des tailles\n</a>"
+          }
+        },
+        "liquid_GTxAnm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');\n\n  #notification-banner {\n    display: flex;\n    align-items: center;\n    font-family: 'Poppins', Arial, sans-serif;\n    font-weight: 700;\n    color: #FF0000; /* red */\n    font-size: 14px; /* adapte selon ton design */\n    margin: 0; /* enlève marges parasites */\n  }\n\n  #notification-banner .ripple-circle {\n    position: relative;\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background-color: #FF0000;\n    margin-right: 6px;\n  }\n\n  #notification-banner .ripple-circle::before,\n  #notification-banner .ripple-circle::after {\n    content: \"\";\n    position: absolute;\n    top: 0; left: 0; bottom: 0; right: 0;\n    border: 1px solid #FF0000;\n    border-radius: 50%;\n    animation: ripple 2s linear infinite;\n  }\n\n  #notification-banner .ripple-circle::after {\n    animation-delay: 1s;\n  }\n\n  @keyframes ripple {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.5);\n      opacity: 0.5;\n    }\n    100% {\n      transform: scale(2);\n      opacity: 0;\n    }\n  }\n</style>\n\n<div id=\"notification-banner\">\n  <div class=\"ripple-circle\"></div>\n  <div>Plus que 4 en stock</div>\n</div>"
           }
         },
         "badges": {
@@ -50,12 +68,14 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false
           }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -71,19 +91,38 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#ecc485",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "image_Rnk8tL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cccccc.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "image_bCAXPQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/payn.webp",
+            "alignment": "center",
+            "max_width": 500
+          }
         }
       },
       "block_order": [
+        "liquid_DXAALT",
         "title",
         "price",
-        "kaching_bundles_app_block_yDccCP",
+        "liquid_zCXcFa",
+        "liquid_gyjkwc",
+        "liquid_GTxAnm",
         "badges",
         "rating",
         "payment_terms",
@@ -91,13 +130,15 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "image_Rnk8tL",
+        "image_bCAXPQ"
       ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
@@ -109,6 +150,58 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "rich_text_XfMtHV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jGax9L": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi vous allez l’adorer 💕",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jGax9L"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_ztPPMx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jnHRM3": {
+          "type": "heading",
+          "settings": {
+            "text": "Avant/Après : la magie SmoothUp ✨",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jnHRM3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "related-products": {
@@ -132,10 +225,51 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "contact_96b7hE": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7j/7. Temps de réponse moyen : 24h.",
+        "title": "Une Question ?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus bref délais.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#ecc485",
+        "button_text_color": ""
+      }
+    },
+    "1752408389cb7bbb27": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "rich_text_XfMtHV",
+    "rich_text_ztPPMx",
+    "related-products",
+    "contact_96b7hE",
+    "1752408389cb7bbb27"
   ]
 }

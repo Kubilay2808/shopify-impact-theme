@@ -33,7 +33,7 @@
         "liquid_zCXcFa": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .check-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  .check-list li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n    font-size: 16px;\n  }\n  .check-icon {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ECC485;\n    color: #fff;\n    border-radius: 50%;\n    width: 18px;\n    height: 18px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <span class=\"check-icon\">✓</span>\n    2x plus de volume et de galbe en quelques secondes\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Lavables et résistants à la transpiration\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n   Idéals sous tops, robes et tenues ajustées\n  </li>\n</ul>"
+            "liquid": "<style>\n  .check-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  .check-list li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n    font-size: 16px;\n  }\n  .check-icon {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ECC485;\n    color: #fff;\n    border-radius: 50%;\n    width: 18px;\n    height: 18px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <span class=\"check-icon\">✓</span>\n    2x plus de volume en quelques secondes\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Lavables et résistants à la transpiration\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n   Idéals sous tops, robes et tenues ajustées\n  </li>\n</ul>"
           }
         },
         "liquid_gyjkwc": {
@@ -188,7 +188,7 @@
         "image_size": "auto",
         "image": "shopify://shop_images/Lisse_les_cheveux_les_plus_rebelles.png",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -262,7 +262,7 @@
         "heading_jnHRM3": {
           "type": "heading",
           "settings": {
-            "text": "Avant/Après : la magie SmoothUp ✨",
+            "text": "Avant/Après : la magie PushPads ✨",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -282,6 +282,125 @@
         "text_color": ""
       }
     },
+    "video_fnqeDF": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/2a87.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_HmzE4m": {
+      "type": "multi-column",
+      "blocks": {
+        "item_KAqwfk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2c1ab3eb-556a-49fe-983d-22d4ae202379_c4c04055-a51a-4b1c-8912-04227e5234b6.png",
+            "column_size": "3",
+            "title": "Elsa T.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Moi qui ai une petite poitrine, je cherchais un effet liftant sans armature. Résultat : +2 tailles visuelles en deux secondes 😍 Et aucun effet carton, c’est doux et léger.</em>\"<br/><br/><br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DRKRQN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/164e6f96-77b9-4832-b581-a1438912758c.png",
+            "column_size": "3",
+            "title": "Sandrine C.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Le contraste est fou ! Je ne pensais pas que ça ferait autant d’effet avec un top aussi simple. Le fait que ça reste discret même sous des vêtements moulants, c’est top</em>.\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_TJEdtF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/b2d4c1a6-770e-4518-8f5d-b6c34732f182_b0d9d5c3-386e-48ce-8af1-13bbcd24264b.png",
+            "column_size": "3",
+            "title": "Laura B.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Parfait pour l’été ou les tops ouverts. Je les ai portés en soirée et ils n’ont pas bougé d’un millimètre. Je ne porterai plus de soutien-gorge classique avec ce genre de tenues, c’est sûr</em>.\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_kWMJJR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Modifi_6.png",
+            "column_size": "3",
+            "title": "Claire M.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Franchement bluffant. J’ai testé plein de solutions push-up et c’est la première fois que j’ai un résultat aussi naturel. Ça tient bien toute la journée sans gêne ni glissement. Adopté direct.</em>\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eGVdQL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/e1d0e43d-7cf1-4e76-a6b2-1772b129d852.png",
+            "column_size": "3",
+            "title": "Valérie P.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Je les ai portés toute la journée au boulot, puis en after… rien à dire. Ils sont confortables, invisibles sous les vêtements et super faciles à poser. Je recommande à 100 %.</em>\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cXzUzB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/196b0411-2365-412c-84ff-28cfe961e605_8d77a85f-b056-48e5-950a-d50911537f9e.png",
+            "column_size": "3",
+            "title": "Sarah D.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Je les ai pris pour un mariage et franchement, le résultat est dingue. Ils mettent la poitrine en valeur sans en faire trop. Et surtout, zéro gêne à la fin de la journée</em>.\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_KAqwfk",
+        "item_DRKRQN",
+        "item_TJEdtF",
+        "item_kWMJJR",
+        "item_eGVdQL",
+        "item_cXzUzB"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -293,7 +412,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "You may also like",
+        "title": "Vous aimerez peut-être aussi",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -302,6 +421,83 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "faq_AVUGay": {
+      "type": "faq",
+      "blocks": {
+        "item_na7Umc": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que les PushPads conviennent à tout le monde ?",
+            "content": "<p>Les PushPads conviennent à toutes les tailles et formes de poitrine, à l'exception des femmes enceintes ou allaitantes et des femmes ayant une peau très sensible.<br/><br/></p>"
+          }
+        },
+        "item_ApeqTk": {
+          "type": "item",
+          "settings": {
+            "title": "Pour quels vêtements sont-ils adaptés ?",
+            "content": "<p>Les PushPads sont parfaits pour les tops, robes ou bikinis <strong>dos-nu</strong>, mais peuvent aussi être portés <strong>directement dans un soutien-gorge</strong>.<br/><br/></p>"
+          }
+        },
+        "item_79Pz49": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que ça fait mal à retirer ?",
+            "content": "<p>Non ! Leur <strong>adhésif doux pour la peau</strong> se retire facilement et sans douleur, que ce soit sur la peau ou les vêtements.<br/><br/></p>"
+          }
+        },
+        "item_H7catN": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle est la différence avec d’autres caches-tétons ?",
+            "content": "<p>Contrairement aux inserts classiques, les PushPads sont <strong>adhésifs des deux côtés</strong>.<br/><br/>Cela assure un maintien optimal et évite qu’ils ne <strong>glissent ou bougent</strong>, même pendant la journée.<br/><br/></p>"
+          }
+        },
+        "item_UpDQer": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de fois puis-je les utiliser ?",
+            "content": "<p>Les pads sont résistants à l’eau et à la transpiration.<br/><br/>Tu peux les laver après chaque 2e utilisation avec un peu de savon doux.<br/><br/> Ils sont <strong>réutilisables jusqu’à 40 fois</strong>.<br/><br/></p>"
+          }
+        },
+        "item_NJChT8": {
+          "type": "item",
+          "settings": {
+            "title": "De quoi sont faits les PushPads ?",
+            "content": "<p>Ils sont fabriqués à partir de <strong>silicone doux pour la peau</strong> et sont <strong>sans latex</strong>.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_na7Umc",
+        "item_ApeqTk",
+        "item_79Pz49",
+        "item_H7catN",
+        "item_UpDQer",
+        "item_NJChT8"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
     "contact_96b7hE": {
@@ -324,22 +520,6 @@
         "button_background": "#ecc485",
         "button_text_color": ""
       }
-    },
-    "1752408389cb7bbb27": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
     }
   },
   "order": [
@@ -348,8 +528,10 @@
     "image_with_text_overlay_DCzdaq",
     "multi_column_MUjhiB",
     "rich_text_ztPPMx",
+    "video_fnqeDF",
+    "multi_column_HmzE4m",
     "related-products",
-    "contact_96b7hE",
-    "1752408389cb7bbb27"
+    "faq_AVUGay",
+    "contact_96b7hE"
   ]
 }

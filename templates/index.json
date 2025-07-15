@@ -99,7 +99,6 @@
     },
     "featured_collection_tLjfjd": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "collection": "",

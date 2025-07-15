@@ -178,6 +178,84 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_DCzdaq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Lisse_les_cheveux_les_plus_rebelles.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_MUjhiB": {
+      "type": "multi-column",
+      "blocks": {
+        "item_ARGnbf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yMjBwX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sleekee_PushPads_2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_MMmteT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sleekee_PushPads_3.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_ARGnbf",
+        "item_yMjBwX",
+        "item_MMmteT"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Les seuls pads à la hauteur de leurs promesses ✨",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_ztPPMx": {
       "type": "rich-text",
       "blocks": {
@@ -267,6 +345,8 @@
   "order": [
     "main",
     "rich_text_XfMtHV",
+    "image_with_text_overlay_DCzdaq",
+    "multi_column_MUjhiB",
     "rich_text_ztPPMx",
     "related-products",
     "contact_96b7hE",

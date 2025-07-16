@@ -15,7 +15,7 @@
         "liquid_DXAALT": {
           "type": "liquid",
           "settings": {
-            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(42 avis)</span>\n    </a>"
+            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(29 avis)</span>\n    </a>"
           }
         },
         "title": {
@@ -161,82 +161,20 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_DCzdaq": {
+    "image_with_text_overlay_6jdCJY": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": true,
+        "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Lisse_les_cheveux_les_plus_rebelles.png",
+        "image": "shopify://shop_images/Copie_de_Template_section_benefice.png",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "multi_column_MUjhiB": {
-      "type": "multi-column",
-      "blocks": {
-        "item_ARGnbf": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_yMjBwX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Sleekee_PushPads_2.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_MMmteT": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Sleekee_PushPads_3.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_ARGnbf",
-        "item_yMjBwX",
-        "item_MMmteT"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Les seuls pads à la hauteur de leurs promesses ✨",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "rich_text_ztPPMx": {
@@ -245,7 +183,7 @@
         "heading_jnHRM3": {
           "type": "heading",
           "settings": {
-            "text": "Avant/Après : la magie PushPads ✨",
+            "text": "Avant/Après : la magie SmoothUp ✨",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -265,7 +203,7 @@
         "text_color": ""
       }
     },
-    "video_fnqeDF": {
+    "video_kwYzjg": {
       "type": "video",
       "name": "Video",
       "settings": {
@@ -273,115 +211,89 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
-        "video": "shopify://files/videos/2a87.mp4",
+        "video": "shopify://files/videos/Sans.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
-    "rich_text_EFFBKC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_byNMDb": {
-          "type": "heading",
-          "settings": {
-            "text": "Elles nous ont fait confiance 💖",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_byNMDb"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_HmzE4m": {
+    "multi_column_N6aYnj": {
       "type": "multi-column",
       "blocks": {
-        "item_KAqwfk": {
+        "item_XF37W7": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/2c1ab3eb-556a-49fe-983d-22d4ae202379_c4c04055-a51a-4b1c-8912-04227e5234b6.png",
+            "image": "shopify://shop_images/a70f490c-bf13-4eb6-b87d-b2b3bd3d566c.png",
             "column_size": "3",
-            "title": "Elsa T.",
+            "title": "Sofia B.",
             "heading_tag": "h4",
-            "content": "<p>\"<em>Moi qui ai une petite poitrine, je cherchais un effet liftant sans armature. Résultat : +2 tailles visuelles en deux secondes 😍 Et aucun effet carton, c’est doux et léger.</em>\"<br/><br/><br/><br/></p>",
+            "content": "<p>\"C'est tout simplement le meilleur soutien-gorge adhésif que j'ai jamais essayé. Il tient parfaitement des deux côtés, je l'ai porté plus de 10 heures et il est resté collant toute la journée.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_DRKRQN": {
+        "item_iP4jnm": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/164e6f96-77b9-4832-b581-a1438912758c.png",
+            "image": "shopify://shop_images/SnapInsta.to_467321817_17986821644766320_4455698533335326133_n.jpg",
             "column_size": "3",
-            "title": "Sandrine C.",
+            "title": "Sophie V.",
             "heading_tag": "h4",
-            "content": "<p>\"<em>Le contraste est fou ! Je ne pensais pas que ça ferait autant d’effet avec un top aussi simple. Le fait que ça reste discret même sous des vêtements moulants, c’est top</em>.\"<br/><br/></p>",
+            "content": "<p>\"Ils soulèvent vraiment bien une fois qu'on a compris le principe. Je pense que c'est une excellente solution, surtout si vous souhaitez un joli décolleté sans que les bretelles se voient.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_TJEdtF": {
+        "item_ceKTcF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/b2d4c1a6-770e-4518-8f5d-b6c34732f182_b0d9d5c3-386e-48ce-8af1-13bbcd24264b.png",
+            "image": "shopify://shop_images/594569.png",
             "column_size": "3",
-            "title": "Laura B.",
+            "title": "Anaïs D.",
             "heading_tag": "h4",
-            "content": "<p>\"<em>Parfait pour l’été ou les tops ouverts. Je les ai portés en soirée et ils n’ont pas bougé d’un millimètre. Je ne porterai plus de soutien-gorge classique avec ce genre de tenues, c’est sûr</em>.\"<br/><br/></p>",
+            "content": "<p>\"Je le recommande vivement, je suis tombée sur ce soutien gorge adhésif par hasard. Il a parfaitement mis en valeur mon haut et il est passé inaperçu. Mon mari a beaucoup aimé l'effet.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_kWMJJR": {
+        "item_DefHTH": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Modifi_6.png",
+            "image": "shopify://shop_images/monokas-pushpads-2-seitig-klebende-nippelcover-perfekt-fur-den-sommer-344474.webp",
             "column_size": "3",
-            "title": "Claire M.",
+            "title": "Anna M.",
             "heading_tag": "h4",
-            "content": "<p>\"<em>Franchement bluffant. J’ai testé plein de solutions push-up et c’est la première fois que j’ai un résultat aussi naturel. Ça tient bien toute la journée sans gêne ni glissement. Adopté direct.</em>\"</p>",
+            "content": "<p>\"Je cherchais une solution pour pouvoir porter des tops et des robes sans bretelles sans avoir à me soucier des marques de soutien-gorge. Celui-ci est juste parfait !\"<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_eGVdQL": {
+        "item_dcr6jG": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/e1d0e43d-7cf1-4e76-a6b2-1772b129d852.png",
+            "image": "shopify://shop_images/1cc9aecb-caf6-48ba-8087-3c481d4a4bdf.png",
             "column_size": "3",
-            "title": "Valérie P.",
+            "title": "Léa P.",
             "heading_tag": "h4",
-            "content": "<p>\"<em>Je les ai portés toute la journée au boulot, puis en after… rien à dire. Ils sont confortables, invisibles sous les vêtements et super faciles à poser. Je recommande à 100 %.</em>\"<br/><br/></p>",
+            "content": "<p>\"La différence est dingue !<br/>C'est vraiment incroyable à quel point il vous donne un coup de pouce. Il est resté bien en place toute la journée et personne ne l'a remarqué.<br/>Excellent produit et excellente idée.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_cXzUzB": {
+        "item_FdLEYp": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/196b0411-2365-412c-84ff-28cfe961e605_8d77a85f-b056-48e5-950a-d50911537f9e.png",
+            "image": "shopify://shop_images/55.png",
             "column_size": "3",
-            "title": "Sarah D.",
+            "title": "Emilie C.",
             "heading_tag": "h4",
-            "content": "<p>\"<em>Je les ai pris pour un mariage et franchement, le résultat est dingue. Ils mettent la poitrine en valeur sans en faire trop. Et surtout, zéro gêne à la fin de la journée</em>.\"<br/><br/></p>",
+            "content": "<p>\"À première vue, on pourrait penser que j'ai une grosse poitrine alors que pas du tout. Je fais un bonnet A mais grâce au Pushup de Sleekee j'ai l'impression de faire un bonnet C !\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -389,12 +301,12 @@
         }
       },
       "block_order": [
-        "item_KAqwfk",
-        "item_DRKRQN",
-        "item_TJEdtF",
-        "item_kWMJJR",
-        "item_eGVdQL",
-        "item_cXzUzB"
+        "item_XF37W7",
+        "item_iP4jnm",
+        "item_ceKTcF",
+        "item_DefHTH",
+        "item_dcr6jG",
+        "item_FdLEYp"
       ],
       "name": "Multi-column",
       "settings": {
@@ -403,9 +315,9 @@
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
-        "title": "",
+        "title": "Nos clientes en parlent le mieux",
         "content": "",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -442,59 +354,59 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "faq_AVUGay": {
+    "faq_eDPayz": {
       "type": "faq",
       "blocks": {
-        "item_na7Umc": {
+        "item_yXdkfn": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que les PushPads conviennent à tout le monde ?",
-            "content": "<p>Les PushPads conviennent à toutes les tailles et formes de poitrine, à l'exception des femmes enceintes ou allaitantes et des femmes ayant une peau très sensible.<br/><br/></p>"
+            "title": "Comment choisir ma taille ?",
+            "content": "<p>Nous vous recommandons de choisir votre taille de soutien gorge actuelle. Si vous êtes entre deux tailles, nous vous recommandons de choisir la plus grande.</p><p>Vous pouvez également consulter le guide des tailles.</p>"
           }
         },
-        "item_ApeqTk": {
+        "item_MFztUN": {
           "type": "item",
           "settings": {
-            "title": "Pour quels vêtements sont-ils adaptés ?",
-            "content": "<p>Les PushPads sont parfaits pour les tops, robes ou bikinis <strong>dos-nu</strong>, mais peuvent aussi être portés <strong>directement dans un soutien-gorge</strong>.<br/><br/></p>"
+            "title": "Est-ce que je peux le nettoyer ?",
+            "content": "<p>Le Sleeky SmoothUp est fabriqué avec un adhésif en silicone lavable. Ce qui signifie qu'il peut être facilement nettoyé avec de l'eau tiède et du savon.</p><p>Laissez ensuite sécher et ne recollez le film sur le soutien gorge que lorsqu'il est complètement sec.</p>"
           }
         },
-        "item_79Pz49": {
+        "item_CMrUQ9": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que ça fait mal à retirer ?",
-            "content": "<p>Non ! Leur <strong>adhésif doux pour la peau</strong> se retire facilement et sans douleur, que ce soit sur la peau ou les vêtements.<br/><br/></p>"
+            "title": "Est-ce que je peux l'échanger ?",
+            "content": "<p>Nous vous offrons un échange sans problème grâce à notre garantie d'échange  gratuit.</p><p>Si la taille ne convient pas, nous vous enverrons celui adapté à vous gratuitement.</p>"
           }
         },
-        "item_H7catN": {
+        "item_CJcwRw": {
           "type": "item",
           "settings": {
-            "title": "Quelle est la différence avec d’autres caches-tétons ?",
-            "content": "<p>Contrairement aux inserts classiques, les PushPads sont <strong>adhésifs des deux côtés</strong>.<br/><br/>Cela assure un maintien optimal et évite qu’ils ne <strong>glissent ou bougent</strong>, même pendant la journée.<br/><br/></p>"
+            "title": "Combien de fois est-ce que je peux l'utiliser ?",
+            "content": "<p>Avec un bon entretien, Sleekee SmoothUp peut-être utilisé plus de 30 fois.</p>"
           }
         },
-        "item_UpDQer": {
+        "item_E8tFNa": {
           "type": "item",
           "settings": {
-            "title": "Combien de fois puis-je les utiliser ?",
-            "content": "<p>Les pads sont résistants à l’eau et à la transpiration.<br/><br/>Tu peux les laver après chaque 2e utilisation avec un peu de savon doux.<br/><br/> Ils sont <strong>réutilisables jusqu’à 40 fois</strong>.<br/><br/></p>"
+            "title": "Est-ce qu'il tient toute la journée, même en été ?",
+            "content": "<p>Oui, le SmoothUp est conçu pour tenir toute la journée ou soirée, même par temps chaud ou en cas de transpiration. Idéal pour les mariages, soirées ou journées actives !</p>"
           }
         },
-        "item_NJChT8": {
+        "item_hGcTWr": {
           "type": "item",
           "settings": {
-            "title": "De quoi sont faits les PushPads ?",
-            "content": "<p>Ils sont fabriqués à partir de <strong>silicone doux pour la peau</strong> et sont <strong>sans latex</strong>.<br/><br/></p>"
+            "title": "Est-ce qu'il colle bien sans faire mal à la peau ?",
+            "content": "<p> L’adhésif en silicone est hypoallergénique, doux pour la peau et sans latex. Il colle parfaitement sans irritation. Un confort assuré, même sur peau sensible.<br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "item_na7Umc",
-        "item_ApeqTk",
-        "item_79Pz49",
-        "item_H7catN",
-        "item_UpDQer",
-        "item_NJChT8"
+        "item_yXdkfn",
+        "item_MFztUN",
+        "item_CMrUQ9",
+        "item_CJcwRw",
+        "item_E8tFNa",
+        "item_hGcTWr"
       ],
       "name": "FAQ",
       "settings": {
@@ -508,54 +420,26 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#1a1a1a",
         "heading_gradient": "",
         "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
-    "related_products_dHYYAj": {
-      "type": "related-products",
-      "name": "Related products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [
-          "sleekee-smoothup™"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Vous aimerez peut-être aussi",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "button_text_color": "rgba(0,0,0,0)",
+        "accordion_background": "rgba(0,0,0,0)",
+        "accordion_text_color": "#393939"
       }
     }
   },
   "order": [
     "main",
     "rich_text_XfMtHV",
-    "image_with_text_overlay_DCzdaq",
-    "multi_column_MUjhiB",
+    "image_with_text_overlay_6jdCJY",
     "rich_text_ztPPMx",
-    "video_fnqeDF",
-    "rich_text_EFFBKC",
-    "multi_column_HmzE4m",
+    "video_kwYzjg",
+    "multi_column_N6aYnj",
     "1752694729d35dcaf4",
-    "faq_AVUGay",
-    "related_products_dHYYAj"
+    "faq_eDPayz"
   ]
 }

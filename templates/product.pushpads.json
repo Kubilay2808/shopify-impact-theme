@@ -1,0 +1,535 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_DXAALT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 85px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(42 avis)</span>\n    </a>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_zCXcFa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .check-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  .check-list li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n    font-size: 16px;\n  }\n  .check-icon {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ECC485;\n    color: #fff;\n    border-radius: 50%;\n    width: 18px;\n    height: 18px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <span class=\"check-icon\">✓</span>\n    2x plus de volume en quelques secondes\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Lavables et résistants à la transpiration\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n   Idéals sous tops, robes et tenues ajustées\n  </li>\n</ul>"
+          }
+        },
+        "liquid_gyjkwc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .size-guide-link {\n    color: #; /* Couleur assortie à ton thème */\n    font-weight: bold;\n    text-decoration: underline;\n    cursor: pointer;\n  }\n</style>\n\n<a class=\"size-guide-link\" href=\"https://cdn.shopify.com/s/files/1/0920/8132/4412/files/guide_taille.png?v=1750527115\">\n 🚩 Guide des tailles\n</a>"
+          }
+        },
+        "liquid_GTxAnm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');\n\n  #notification-banner {\n    display: flex;\n    align-items: center;\n    font-family: 'Poppins', Arial, sans-serif;\n    font-weight: 700;\n    color: #FF0000; /* red */\n    font-size: 14px; /* adapte selon ton design */\n    margin: 0; /* enlève marges parasites */\n  }\n\n  #notification-banner .ripple-circle {\n    position: relative;\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background-color: #FF0000;\n    margin-right: 6px;\n  }\n\n  #notification-banner .ripple-circle::before,\n  #notification-banner .ripple-circle::after {\n    content: \"\";\n    position: absolute;\n    top: 0; left: 0; bottom: 0; right: 0;\n    border: 1px solid #FF0000;\n    border-radius: 50%;\n    animation: ripple 2s linear infinite;\n  }\n\n  #notification-banner .ripple-circle::after {\n    animation-delay: 1s;\n  }\n\n  @keyframes ripple {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.5);\n      opacity: 0.5;\n    }\n    100% {\n      transform: scale(2);\n      opacity: 0;\n    }\n  }\n</style>\n\n<div id=\"notification-banner\">\n  <div class=\"ripple-circle\"></div>\n  <div>Plus que 4 en stock</div>\n</div>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#ecc485",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "image_Rnk8tL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cccccc.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "image_bCAXPQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/payn.webp",
+            "alignment": "center",
+            "max_width": 500
+          }
+        }
+      },
+      "block_order": [
+        "liquid_DXAALT",
+        "title",
+        "price",
+        "liquid_zCXcFa",
+        "liquid_gyjkwc",
+        "liquid_GTxAnm",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "image_Rnk8tL",
+        "image_bCAXPQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_XfMtHV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jGax9L": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi vous allez l’adorer 💕",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jGax9L"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_DCzdaq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Lisse_les_cheveux_les_plus_rebelles.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_MUjhiB": {
+      "type": "multi-column",
+      "blocks": {
+        "item_ARGnbf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yMjBwX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sleekee_PushPads_2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_MMmteT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sleekee_PushPads_3.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_ARGnbf",
+        "item_yMjBwX",
+        "item_MMmteT"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Les seuls pads à la hauteur de leurs promesses ✨",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_ztPPMx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jnHRM3": {
+          "type": "heading",
+          "settings": {
+            "text": "Avant/Après : la magie PushPads ✨",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jnHRM3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_fnqeDF": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/2a87.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_HmzE4m": {
+      "type": "multi-column",
+      "blocks": {
+        "item_KAqwfk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2c1ab3eb-556a-49fe-983d-22d4ae202379_c4c04055-a51a-4b1c-8912-04227e5234b6.png",
+            "column_size": "3",
+            "title": "Elsa T.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Moi qui ai une petite poitrine, je cherchais un effet liftant sans armature. Résultat : +2 tailles visuelles en deux secondes 😍 Et aucun effet carton, c’est doux et léger.</em>\"<br/><br/><br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DRKRQN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/164e6f96-77b9-4832-b581-a1438912758c.png",
+            "column_size": "3",
+            "title": "Sandrine C.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Le contraste est fou ! Je ne pensais pas que ça ferait autant d’effet avec un top aussi simple. Le fait que ça reste discret même sous des vêtements moulants, c’est top</em>.\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_TJEdtF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/b2d4c1a6-770e-4518-8f5d-b6c34732f182_b0d9d5c3-386e-48ce-8af1-13bbcd24264b.png",
+            "column_size": "3",
+            "title": "Laura B.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Parfait pour l’été ou les tops ouverts. Je les ai portés en soirée et ils n’ont pas bougé d’un millimètre. Je ne porterai plus de soutien-gorge classique avec ce genre de tenues, c’est sûr</em>.\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_kWMJJR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Modifi_6.png",
+            "column_size": "3",
+            "title": "Claire M.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Franchement bluffant. J’ai testé plein de solutions push-up et c’est la première fois que j’ai un résultat aussi naturel. Ça tient bien toute la journée sans gêne ni glissement. Adopté direct.</em>\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eGVdQL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/e1d0e43d-7cf1-4e76-a6b2-1772b129d852.png",
+            "column_size": "3",
+            "title": "Valérie P.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Je les ai portés toute la journée au boulot, puis en after… rien à dire. Ils sont confortables, invisibles sous les vêtements et super faciles à poser. Je recommande à 100 %.</em>\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cXzUzB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/196b0411-2365-412c-84ff-28cfe961e605_8d77a85f-b056-48e5-950a-d50911537f9e.png",
+            "column_size": "3",
+            "title": "Sarah D.",
+            "heading_tag": "h4",
+            "content": "<p>\"<em>Je les ai pris pour un mariage et franchement, le résultat est dingue. Ils mettent la poitrine en valeur sans en faire trop. Et surtout, zéro gêne à la fin de la journée</em>.\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_KAqwfk",
+        "item_DRKRQN",
+        "item_TJEdtF",
+        "item_kWMJJR",
+        "item_eGVdQL",
+        "item_cXzUzB"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1752694729d35dcaf4": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_8tXbcf": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_8tXbcf"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "faq_AVUGay": {
+      "type": "faq",
+      "blocks": {
+        "item_na7Umc": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que les PushPads conviennent à tout le monde ?",
+            "content": "<p>Les PushPads conviennent à toutes les tailles et formes de poitrine, à l'exception des femmes enceintes ou allaitantes et des femmes ayant une peau très sensible.<br/><br/></p>"
+          }
+        },
+        "item_ApeqTk": {
+          "type": "item",
+          "settings": {
+            "title": "Pour quels vêtements sont-ils adaptés ?",
+            "content": "<p>Les PushPads sont parfaits pour les tops, robes ou bikinis <strong>dos-nu</strong>, mais peuvent aussi être portés <strong>directement dans un soutien-gorge</strong>.<br/><br/></p>"
+          }
+        },
+        "item_79Pz49": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que ça fait mal à retirer ?",
+            "content": "<p>Non ! Leur <strong>adhésif doux pour la peau</strong> se retire facilement et sans douleur, que ce soit sur la peau ou les vêtements.<br/><br/></p>"
+          }
+        },
+        "item_H7catN": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle est la différence avec d’autres caches-tétons ?",
+            "content": "<p>Contrairement aux inserts classiques, les PushPads sont <strong>adhésifs des deux côtés</strong>.<br/><br/>Cela assure un maintien optimal et évite qu’ils ne <strong>glissent ou bougent</strong>, même pendant la journée.<br/><br/></p>"
+          }
+        },
+        "item_UpDQer": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de fois puis-je les utiliser ?",
+            "content": "<p>Les pads sont résistants à l’eau et à la transpiration.<br/><br/>Tu peux les laver après chaque 2e utilisation avec un peu de savon doux.<br/><br/> Ils sont <strong>réutilisables jusqu’à 40 fois</strong>.<br/><br/></p>"
+          }
+        },
+        "item_NJChT8": {
+          "type": "item",
+          "settings": {
+            "title": "De quoi sont faits les PushPads ?",
+            "content": "<p>Ils sont fabriqués à partir de <strong>silicone doux pour la peau</strong> et sont <strong>sans latex</strong>.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_na7Umc",
+        "item_ApeqTk",
+        "item_79Pz49",
+        "item_H7catN",
+        "item_UpDQer",
+        "item_NJChT8"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_JJ9UEg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D4H49F": {
+          "type": "heading",
+          "settings": {
+            "text": "Elles nous ont fait confiance 💖",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_D4H49F"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_XfMtHV",
+    "image_with_text_overlay_DCzdaq",
+    "multi_column_MUjhiB",
+    "rich_text_ztPPMx",
+    "video_fnqeDF",
+    "rich_text_JJ9UEg",
+    "multi_column_HmzE4m",
+    "1752694729d35dcaf4",
+    "faq_AVUGay"
+  ]
+}

@@ -280,6 +280,32 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_JJ9UEg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D4H49F": {
+          "type": "heading",
+          "settings": {
+            "text": "Elles nous ont fait confiance 💖",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_D4H49F"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_HmzE4m": {
       "type": "multi-column",
       "blocks": {
@@ -384,38 +410,6 @@
         "text_color": ""
       }
     },
-    "1752694729d35dcaf4": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_8tXbcf": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_8tXbcf"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "faq_AVUGay": {
       "type": "faq",
       "blocks": {
@@ -493,30 +487,59 @@
         "accordion_text_color": ""
       }
     },
-    "rich_text_JJ9UEg": {
-      "type": "rich-text",
+    "1752694729d35dcaf4": {
+      "type": "apps",
       "blocks": {
-        "heading_D4H49F": {
-          "type": "heading",
+        "loox_reviews_loox_dynamic_section_8tXbcf": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "text": "Elles nous ont fait confiance 💖",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 10,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
           }
         }
       },
       "block_order": [
-        "heading_D4H49F"
+        "loox_reviews_loox_dynamic_section_8tXbcf"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "related_products_jfMd7c": {
+      "type": "related-products",
+      "name": "Related products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous aimerez peut-être aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     }
   },
@@ -529,7 +552,8 @@
     "video_fnqeDF",
     "rich_text_JJ9UEg",
     "multi_column_HmzE4m",
+    "faq_AVUGay",
     "1752694729d35dcaf4",
-    "faq_AVUGay"
+    "related_products_jfMd7c"
   ]
 }

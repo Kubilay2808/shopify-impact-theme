@@ -104,12 +104,13 @@
         "collection": "",
         "products": [
           "sleekee-smoothup™",
-          "sleekee-pushpads-couvre-tetons-push-up-adhesifs-double-face-pour-un-decollete-parfait"
+          "sleekee-pushpads-couvre-tetons-push-up-adhesifs-double-face-pour-un-decollete-parfait",
+          "cache-tetons"
         ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
-        "products_count": 2,
+        "products_count": 3,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
@@ -137,22 +138,6 @@
         "image": "shopify://shop_images/coeu.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "image_with_text_overlay_dzK3KT": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/100_SATISFAIT.png",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -189,6 +174,22 @@
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_dzK3KT": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/100_SATISFAIT.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "contact_kjEYQf": {

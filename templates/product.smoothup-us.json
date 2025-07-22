@@ -24,6 +24,10 @@
             "show_taxes_notice": false
           }
         },
+        "separator_gHfLgC": {
+          "type": "separator",
+          "settings": {}
+        },
         "liquid_zCXcFa": {
           "type": "liquid",
           "settings": {
@@ -92,6 +96,7 @@
       "block_order": [
         "title",
         "price",
+        "separator_gHfLgC",
         "liquid_zCXcFa",
         "liquid_GTxAnm",
         "separator",

@@ -147,10 +147,143 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "multi_column_xtM33D": {
+      "type": "multi-column",
+      "blocks": {
+        "item_8qGad9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SCOTCH_11.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_khKYXg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SCOTCH_8.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_mDHTdW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SCOTCH_12.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_kLfr9r": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SCOTCH_9.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_aJXzQq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SCOTCH_10.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_EcT8ym": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SCOTCH_13.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_8qGad9",
+        "item_khKYXg",
+        "item_mDHTdW",
+        "item_kLfr9r",
+        "item_aJXzQq",
+        "item_EcT8ym"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Compatible avec n'importe quelle tenue ✨",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related_products_8aN4EV": {
+      "type": "related-products",
+      "name": "Related products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "cache-tetons",
+          "sleekee-smoothup™",
+          "sleekee-pushpads-couvre-tetons-push-up-adhesifs-double-face-pour-un-decollete-parfait"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous aimerez peut-être aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "related_products_fCHLWC"
+    "related_products_fCHLWC",
+    "multi_column_xtM33D",
+    "related_products_8aN4EV"
   ]
 }

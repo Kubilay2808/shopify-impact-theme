@@ -105,14 +105,15 @@
         "products": [
           "sleekee-smoothup™",
           "sleekee-pushpads-couvre-tetons-push-up-adhesifs-double-face-pour-un-decollete-parfait",
-          "cache-tetons"
+          "cache-tetons",
+          "bodytape-by-sleekee"
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 3,
+        "show_progress_bar": true,
+        "products_count": 4,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "subheading": "",
         "title": "Nos produits",
         "content": "",

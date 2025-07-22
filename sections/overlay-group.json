@@ -44,8 +44,8 @@
           "bodytape-by-sleekee",
           "cache-tetons"
         ],
-        "product_card_background": "#ecc485",
-        "product_card_text_color": "#ffffff"
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
       }
     },
     "search-drawer": {

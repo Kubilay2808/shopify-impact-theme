@@ -224,11 +224,11 @@
         "item_XF37W7": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/a70f490c-bf13-4eb6-b87d-b2b3bd3d566c.png",
+            "image": "shopify://shop_images/d9bc492a-f8a3-42b3-8e0c-e144250aabc6.png",
             "column_size": "3",
-            "title": "Sofia B.",
+            "title": "Lisa M.",
             "heading_tag": "h4",
-            "content": "<p>\"C'est tout simplement le meilleur soutien-gorge adhésif que j'ai jamais essayé. Il tient parfaitement des deux côtés, je l'ai porté plus de 10 heures et il est resté collant toute la journée.\"</p>",
+            "content": "<p>\"Ce body est tout simplement un 10/10 ! Il me va à ravir. Il est agréable à porter, ne serre pas et est incroyablement sexy. Je le recommande à tout le monde !\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -237,11 +237,11 @@
         "item_iP4jnm": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/SnapInsta.to_467321817_17986821644766320_4455698533335326133_n.jpg",
+            "image": "shopify://shop_images/0d5be66c-2675-4ac0-a078-9ee835d80705.png",
             "column_size": "3",
-            "title": "Sophie V.",
+            "title": "Perrine C.",
             "heading_tag": "h4",
-            "content": "<p>\"Ils soulèvent vraiment bien une fois qu'on a compris le principe. Je pense que c'est une excellente solution, surtout si vous souhaitez un joli décolleté sans que les bretelles se voient.\"</p>",
+            "content": "<p>\"Le body affine parfaitement ma taille sans compresser les fesses. Pas étouffant comme d’autres shapewear et très efficace pour le ventre. Un peu serré à enfiler, mais une fois mis, il tient ses promesses !\"<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -369,8 +369,8 @@
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
         "subheading": "",
         "title": "Vous aimerez peut-être aussi",
         "content": "",

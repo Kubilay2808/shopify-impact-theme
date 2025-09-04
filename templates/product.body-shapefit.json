@@ -354,83 +354,6 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
-    },
-    "faq_eDPayz": {
-      "type": "faq",
-      "blocks": {
-        "item_yXdkfn": {
-          "type": "item",
-          "settings": {
-            "title": "Comment choisir ma taille ?",
-            "content": "<p>Nous vous recommandons de choisir votre taille de soutien gorge actuelle. Si vous êtes entre deux tailles, nous vous recommandons de choisir la plus grande.</p><p>Vous pouvez également consulter le guide des tailles.</p>"
-          }
-        },
-        "item_MFztUN": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que je peux le nettoyer ?",
-            "content": "<p>Le Sleeky SmoothUp est fabriqué avec un adhésif en silicone lavable. Ce qui signifie qu'il peut être facilement nettoyé avec de l'eau tiède et du savon.</p><p>Laissez ensuite sécher et ne recollez le film sur le soutien gorge que lorsqu'il est complètement sec.</p>"
-          }
-        },
-        "item_CMrUQ9": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que je peux l'échanger ?",
-            "content": "<p>Nous vous offrons un échange sans problème grâce à notre garantie d'échange  gratuit.</p><p>Si la taille ne convient pas, nous vous enverrons celui adapté à vous gratuitement.</p>"
-          }
-        },
-        "item_CJcwRw": {
-          "type": "item",
-          "settings": {
-            "title": "Combien de fois est-ce que je peux l'utiliser ?",
-            "content": "<p>Avec un bon entretien, Sleekee SmoothUp peut-être utilisé plus de 30 fois.</p>"
-          }
-        },
-        "item_E8tFNa": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce qu'il tient toute la journée, même en été ?",
-            "content": "<p>Oui, le SmoothUp est conçu pour tenir toute la journée ou soirée, même par temps chaud ou en cas de transpiration. Idéal pour les mariages, soirées ou journées actives !</p>"
-          }
-        },
-        "item_hGcTWr": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce qu'il colle bien sans faire mal à la peau ?",
-            "content": "<p> L’adhésif en silicone est hypoallergénique, doux pour la peau et sans latex. Il colle parfaitement sans irritation. Un confort assuré, même sur peau sensible.<br/><br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_yXdkfn",
-        "item_MFztUN",
-        "item_CMrUQ9",
-        "item_CJcwRw",
-        "item_E8tFNa",
-        "item_hGcTWr"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#1a1a1a",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "rgba(0,0,0,0)",
-        "accordion_background": "rgba(0,0,0,0)",
-        "accordion_text_color": "#393939"
-      }
     }
   },
   "order": [
@@ -440,7 +363,6 @@
     "rich_text_ztPPMx",
     "video_kwYzjg",
     "multi_column_N6aYnj",
-    "1752694729d35dcaf4",
-    "faq_eDPayz"
+    "1752694729d35dcaf4"
   ]
 }

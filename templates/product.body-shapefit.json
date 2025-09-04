@@ -354,6 +354,34 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "related_products_FbkRbr": {
+      "type": "related-products",
+      "name": "Related products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "sleekee-smoothup™",
+          "sleekee-pushpads-couvre-tetons-push-up-adhesifs-double-face-pour-un-decollete-parfait",
+          "cache-tetons",
+          "bodytape-by-sleekee"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous aimerez peut-être aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -363,6 +391,7 @@
     "rich_text_ztPPMx",
     "video_kwYzjg",
     "multi_column_N6aYnj",
-    "1752694729d35dcaf4"
+    "1752694729d35dcaf4",
+    "related_products_FbkRbr"
   ]
 }

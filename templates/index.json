@@ -65,7 +65,7 @@
         "allow_transparent_header": true,
         "image_size": "auto",
         "controls_type": "dots",
-        "transition_type": "fade",
+        "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 4,
         "background": "#ffffff",

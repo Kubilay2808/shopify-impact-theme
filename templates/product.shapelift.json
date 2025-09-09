@@ -39,7 +39,7 @@
         "liquid_gyjkwc": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .size-guide-link {\n    color: #; /* Couleur assortie à ton thème */\n    font-weight: bold;\n    text-decoration: underline;\n    cursor: pointer;\n  }\n</style>\n\n<a class=\"size-guide-link\" href=\"https://cdn.shopify.com/s/files/1/0920/8132/4412/files/guide_tailles_body_beige.png?v=1756900539\">\n 🚩 Guide des tailles\n</a>"
+            "liquid": "<style>\n  .size-guide-link {\n    color: #; /* Couleur assortie à ton thème */\n    font-weight: bold;\n    text-decoration: underline;\n    cursor: pointer;\n  }\n</style>\n\n<a class=\"size-guide-link\" href=\"https://cdn.shopify.com/s/files/1/0920/8132/4412/files/Taille.png?v=1757404094\">\n 🚩 Guide des tailles\n</a>"
           }
         },
         "liquid_GTxAnm": {

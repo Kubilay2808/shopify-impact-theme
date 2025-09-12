@@ -227,7 +227,7 @@
           "settings": {
             "image": "shopify://shop_images/3705505b-791e-4e07-91e5-2cdf1d2a6766.png",
             "column_size": "3",
-            "title": "Célia F.",
+            "title": "Manon C.",
             "heading_tag": "h4",
             "content": "<p>\"Je les ai portés à New York en plein mois de janvier et je n’ai pas eu froid ! C’était l’ajout parfait à mon voyage. J’ai toujours du mal à rester au chaud tout en étant stylée, mais ces collants ont réglé le problème. En plus, la couture à l’arrière ne fait pas un effet bizarre sur les fesses comme c’est souvent le cas. Je suis ravie !\"<br/><br/><br/><br/><br/></p>",
             "link_url": "",
@@ -240,7 +240,7 @@
           "settings": {
             "image": "shopify://shop_images/c5f9e5fa-0891-494b-aa21-8d0b9c9b185f.png",
             "column_size": "3",
-            "title": "Anissa C.",
+            "title": "Elise T.",
             "heading_tag": "h4",
             "content": "<p>\"J’adore ces collants : chauds, doux et stylés ! pas de coutures dérangeantes, le confort et la chaleur sont au rendez-vous. Je fais habituellement une taille 36 (57 kg) et le S/M est parfait\"<br/><br/><br/><br/><br/><br/></p>",
             "link_url": "",
@@ -253,7 +253,7 @@
           "settings": {
             "image": "shopify://shop_images/ede4d38b-471a-4fdb-b1af-d96f1fc8cc73.png",
             "column_size": "3",
-            "title": "Fernanda D.",
+            "title": "Valèrie M.",
             "heading_tag": "h4",
             "content": "<p>\"Je mesure 1m73 pour 63 kg et j’ai pris du S/M. Le fit est parfait pour une silhouette grande et fine. Super taille haute, beaucoup d’élasticité, pas de couture gênante à l’entrejambe et un rendu vraiment flatteur. Doublure douce, chaude et confortable : mes collants doublés préférés !\"<br/><br/><br/><br/><br/></p>",
             "link_url": "",
@@ -266,7 +266,7 @@
           "settings": {
             "image": "shopify://shop_images/1fec0288-0e17-4c93-a003-3dd3ad8ccf41.png",
             "column_size": "3",
-            "title": "Céline B.",
+            "title": "Elsa F.",
             "heading_tag": "h4",
             "content": "<p>\"Ces collants sont exactement ce que j’espérais : ils complètent parfaitement une tenue, gardent les jambes au chaud et donnent vraiment l’illusion du transparent. J'ai pris le S/M (jeans taille 36) et c’est parfait\"<br/><br/><br/><br/><br/></p>",
             "link_url": "",
@@ -279,7 +279,7 @@
           "settings": {
             "image": "shopify://shop_images/1fcd4d80-f236-4d69-93d6-8cbfe559997b.png",
             "column_size": "3",
-            "title": "Jessica M.",
+            "title": "Lucie M.",
             "heading_tag": "h4",
             "content": "<p>\"Je mesure 1m78 pour 97 kg et le L/XL  est parfait ! À Paris, ils m’ont tenue bien au chaud les jours froids, sans être trop chauds quand il faisait plus doux. En plus, ils sont super stylés, foncez !\"<br/><br/><br/><br/><br/><br/></p>",
             "link_url": "",
@@ -292,7 +292,7 @@
           "settings": {
             "image": "shopify://shop_images/717258b4-2cad-429c-8bf6-1d3c5f3c4d2a.png",
             "column_size": "3",
-            "title": "Alicia P.",
+            "title": "Suzanne P.",
             "heading_tag": "h4",
             "content": "<p>\"Je les ai portés lors d’une soirée en rooftop : super confortables même avec un short ! La qualité est top, c'est vraiment le collant à avoir pour les temps froids\"<br/><br/><br/><br/><br/><br/></p>",
             "link_url": "",
@@ -363,8 +363,8 @@
         "recommendations_count": 6,
         "products": [
           "sleekee-smoothup™",
+          "shapefit-culotte-gainante-effet-ventre-plat",
           "sleekee-pushpads-couvre-tetons-push-up-adhesifs-double-face-pour-un-decollete-parfait",
-          "cache-tetons",
           "body-shapefit-silhouette-sablier-confort-absolu"
         ],
         "full_width": true,

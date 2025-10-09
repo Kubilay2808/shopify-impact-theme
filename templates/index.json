@@ -118,6 +118,38 @@
         "overlay_opacity": 0
       }
     },
+    "video_VFxL3N": {
+      "type": "video",
+      "blocks": {
+        "play_HyRxgz": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_eGeLDy": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_HyRxgz",
+        "heading_eGeLDy"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Sleekee™ Tapes – Bandes kinésiologiques prédécoupées_9998bcac-4781-4213-a4ee-c8299f0b7eab.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "contact_kjEYQf": {
       "type": "contact",
       "name": "Contact form",
@@ -144,6 +176,7 @@
     "image_with_text_overlay_d3dDmd",
     "multi_column_9pfc4A",
     "image_with_text_overlay_tjAGaw",
+    "video_VFxL3N",
     "contact_kjEYQf"
   ]
 }

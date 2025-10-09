@@ -17,28 +17,28 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Paiement 100% sécurisé",
+            "text": "100% Secure Payment",
             "url": ""
           }
         },
         "message_WMqfrg": {
           "type": "message",
           "settings": {
-            "text": "Offre limitée Rentrée : -40%",
+            "text": "Limited Offer : -50%",
             "url": ""
           }
         },
         "message_k7XDHd": {
           "type": "message",
           "settings": {
-            "text": "Satisfait ou remboursé",
+            "text": "Money Back Guarantee",
             "url": ""
           }
         },
         "message_WEfXmt": {
           "type": "message",
           "settings": {
-            "text": "Livraison gratuite à domicile",
+            "text": "Free Shipping",
             "url": ""
           }
         }

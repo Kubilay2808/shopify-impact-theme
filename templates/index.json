@@ -170,6 +170,110 @@
         "button_background": "#477d9c",
         "button_text_color": ""
       }
+    },
+    "featured_product_TNWUpG": {
+      "type": "featured-product",
+      "blocks": {
+        "title_jy4K8H": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_KBPHgr": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400; /* Koyu yeşil border */\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img {\n            margin: 0 10px;\n        }\n        .container-trustpilot .stars {\n            max-width: 80px; /* Increased size for the star image */\n        }\n        .container-trustpilot .logo {\n            max-width: 70px;\n        }\n        .container-trustpilot span {\n            margin: 0 5px;\n        }\n        .excellent {\n            color: #000;\n            font-size: 12px;\n        }\n        .rating-text {\n            color: #000;\n            font-size: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.4/5 Rating\">\n        <span class=\"rating-text\">rated 4.8/5 on</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>"
+          }
+        },
+        "badges_Dah4mm": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_zWNhh7": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_npqP7n": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_bVnqzB": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_hmkn6t": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_6LnEUa": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_ktqL4H": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_g8BmiY": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_YqpAia": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_jy4K8H",
+        "liquid_KBPHgr",
+        "badges_Dah4mm",
+        "price_zWNhh7",
+        "rating_npqP7n",
+        "separator_bVnqzB",
+        "description_hmkn6t",
+        "variant_picker_6LnEUa",
+        "quantity_selector_ktqL4H",
+        "buy_buttons_g8BmiY",
+        "pickup_availability_YqpAia"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "strapex™-pre-cut-kinesiology-knee-tape",
+        "desktop_media_width": 60,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -177,6 +281,7 @@
     "multi_column_9pfc4A",
     "image_with_text_overlay_tjAGaw",
     "video_VFxL3N",
-    "contact_kjEYQf"
+    "contact_kjEYQf",
+    "featured_product_TNWUpG"
   ]
 }

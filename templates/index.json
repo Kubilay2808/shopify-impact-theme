@@ -14,9 +14,9 @@
       "name": "Contact form",
       "settings": {
         "full_width": true,
-        "subheading": "Notre service clientèle est disponible 7j/7. Temps de réponse moyen : 24h.",
-        "title": "Une Question ?",
-        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus bref délais.</p>",
+        "subheading": "Our customer service team is available 7 days a week. Average response time: within 24 hours.",
+        "title": "Got a Question ?",
+        "content": "<p>Write to us using the form below — we’ll get back to you as soon as possible.</p>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "",

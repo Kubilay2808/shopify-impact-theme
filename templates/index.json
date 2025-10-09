@@ -102,6 +102,22 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_tjAGaw": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/6_benefices.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "contact_kjEYQf": {
       "type": "contact",
       "name": "Contact form",
@@ -119,7 +135,7 @@
         "heading_gradient": "",
         "contact_background": "",
         "contact_text_color": "",
-        "button_background": "#ecc485",
+        "button_background": "#477d9c",
         "button_text_color": ""
       }
     }
@@ -127,6 +143,7 @@
   "order": [
     "image_with_text_overlay_d3dDmd",
     "multi_column_9pfc4A",
+    "image_with_text_overlay_tjAGaw",
     "contact_kjEYQf"
   ]
 }

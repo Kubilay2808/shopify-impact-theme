@@ -16,7 +16,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "lg",
+        "image_size": "auto",
         "image": "shopify://shop_images/Sleekee_Tapes_Bandes_kinesiologiques_predecoupees.png",
         "mobile_image": "shopify://shop_images/ChatGPT_Image_9_oct._2025_11_04_17.png",
         "mobile_text_position": "place-self-center text-center",

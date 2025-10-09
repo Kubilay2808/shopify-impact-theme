@@ -9,6 +9,99 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_d3dDmd": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/Sleekee_Tapes_Bandes_kinesiologiques_predecoupees.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_9_oct._2025_11_04_17.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_9pfc4A": {
+      "type": "multi-column",
+      "blocks": {
+        "item_xwTNpa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Mens-Health-logo.png",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_zUT93X": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/The_Guardian_2018.svg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_dQCdgA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/GQ-Emblem.png",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pdcwUd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Womens-Health-Logo.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_xwTNpa",
+        "item_zUT93X",
+        "item_dQCdgA",
+        "item_pdcwUd"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "As seen in",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "contact_kjEYQf": {
       "type": "contact",
       "name": "Contact form",
@@ -32,6 +125,8 @@
     }
   },
   "order": [
+    "image_with_text_overlay_d3dDmd",
+    "multi_column_9pfc4A",
     "contact_kjEYQf"
   ]
 }

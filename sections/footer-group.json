@@ -93,8 +93,8 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Inscrivez-vous à notre newsletter",
-            "content": "<p>Inscrivez-vous avec votre adresse e-mail pour recevoir des actualités et des offres exclusives</p>"
+            "title": "Sign up for our newsletter",
+            "content": "<p>Sign up with your email address to receive news and exclusive offers.</p>"
           }
         },
         "links": {

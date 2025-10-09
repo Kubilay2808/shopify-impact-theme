@@ -107,8 +107,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "Nous contacter",
-            "content": "<p><strong>Service client </strong>: support@sleekee.fr</p><p><strong>Horaire</strong> : Du Lundi au Vendredi de 9h à 12h et de 14h à 18h / Samedi et Dimanche de 10h à 12h.</p>",
+            "title": "Contact Us",
+            "content": "<p><strong>Customer Service </strong>: sleekee.store@outook.com</p><p><strong>Hours : </strong>Mon–Fri 9:00 AM–12:00 PM & 1:00 PM–6:00 PM / Sat & Sun 10:00 AM–12:00 PM</p>",
             "enable_follow_on_shop": false
           }
         }

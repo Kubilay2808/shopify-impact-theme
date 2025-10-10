@@ -67,7 +67,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#ecc485",
+            "atc_button_background": "#477d9c",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -76,7 +76,6 @@
         "image_Rnk8tL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cccccc.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -84,7 +83,6 @@
         "image_bCAXPQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/payn.webp",
             "alignment": "center",
             "max_width": 500
           }

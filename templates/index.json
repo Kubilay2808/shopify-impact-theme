@@ -193,6 +193,12 @@
             "size_chart_page": ""
           }
         },
+        "text_QKLCde": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>The first pre-cut kinesiology tapes that <strong>anyone can apply perfectly !</strong></h5><p>No experience, no hassle — just <strong>peel, stick, and feel the difference</strong> with <strong>STRAPEX™</strong></p>"
+          }
+        },
         "liquid_eUxnjV": {
           "type": "liquid",
           "settings": {
@@ -228,6 +234,7 @@
         "separator_bVnqzB",
         "description_hmkn6t",
         "variant_picker_6LnEUa",
+        "text_QKLCde",
         "liquid_eUxnjV",
         "quantity_selector_ktqL4H",
         "kaching_bundles_app_block_ka9Apj",

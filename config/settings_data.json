@@ -37,6 +37,7 @@
     "text_font": "din_next_n4",
     "currency_code_enabled": false,
     "show_page_transition": true,
+    "zoom_image_on_hover": true,
     "heading_apparition": "split_fade",
     "color_swatch_style": "round",
     "show_vendor": false,

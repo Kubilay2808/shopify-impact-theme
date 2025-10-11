@@ -265,7 +265,7 @@
       ],
       "name": "Featured product",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "product": "strapex™-pre-cut-kinesiology-knee-tape",
         "desktop_media_width": 60,
         "desktop_media_layout": "grid_highlight",
@@ -280,6 +280,41 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "media_with_text_paBVQP": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jUAYR7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Psyotherapist_in_Canada_1716809844.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Dr. Alex Warren, DPT – Sports Physiotherapist",
+            "content": "<p>“For patellofemoral pain and general knee instability, <strong>STRAPEX™</strong> provides fast, targeted support without restricting motion.<br/>The <strong>pre-cut, ergonomic shape</strong> ensures correct placement even for first-time users, while the <strong>elastic, skin-friendly fabric</strong> promotes natural movement and proprioception.<br/>It’s a simple way to stabilise the knee during training or daily activity.”</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jUAYR7"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
       }
     },
     "contact_kjEYQf": {
@@ -373,6 +408,7 @@
     "video_VFxL3N",
     "image_with_text_overlay_WpJVxp",
     "featured_product_TNWUpG",
+    "media_with_text_paBVQP",
     "contact_kjEYQf",
     "faq_nUFTpE"
   ]

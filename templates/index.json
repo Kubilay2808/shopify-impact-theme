@@ -106,7 +106,7 @@
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
@@ -145,6 +145,22 @@
         "video_size": "auto",
         "video": "shopify://files/videos/Sleekee™ Tapes – Bandes kinésiologiques prédécoupées_9998bcac-4781-4213-a4ee-c8299f0b7eab.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_WpJVxp": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Her_bann.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -355,6 +371,7 @@
     "multi_column_9pfc4A",
     "image_with_text_overlay_tjAGaw",
     "video_VFxL3N",
+    "image_with_text_overlay_WpJVxp",
     "featured_product_TNWUpG",
     "contact_kjEYQf",
     "faq_nUFTpE"

@@ -30,24 +30,6 @@
             "show_taxes_notice": false
           }
         },
-        "liquid_zCXcFa": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .check-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  .check-list li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n    font-size: 16px;\n  }\n  .check-icon {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ECC485;\n    color: #fff;\n    border-radius: 50%;\n    width: 18px;\n    height: 18px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <span class=\"check-icon\">✓</span>\n    2x plus de volume en quelques secondes\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n    Lavables et résistants à la transpiration\n  </li>\n  <li>\n    <span class=\"check-icon\">✓</span>\n   Idéals sous tops, robes et tenues ajustées\n  </li>\n</ul>"
-          }
-        },
-        "liquid_gyjkwc": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .size-guide-link {\n    color: #; /* Couleur assortie à ton thème */\n    font-weight: bold;\n    text-decoration: underline;\n    cursor: pointer;\n  }\n</style>\n\n<a class=\"size-guide-link\" href=\"https://cdn.shopify.com/s/files/1/0920/8132/4412/files/guide_tailles_FR_final.png?v=1758704132\">\n 🚩 Guide des tailles\n</a>"
-          }
-        },
-        "liquid_GTxAnm": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');\n\n  #notification-banner {\n    display: flex;\n    align-items: center;\n    font-family: 'Poppins', Arial, sans-serif;\n    font-weight: 700;\n    color: #FF0000; /* red */\n    font-size: 14px; /* adapte selon ton design */\n    margin: 0; /* enlève marges parasites */\n  }\n\n  #notification-banner .ripple-circle {\n    position: relative;\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background-color: #FF0000;\n    margin-right: 6px;\n  }\n\n  #notification-banner .ripple-circle::before,\n  #notification-banner .ripple-circle::after {\n    content: \"\";\n    position: absolute;\n    top: 0; left: 0; bottom: 0; right: 0;\n    border: 1px solid #FF0000;\n    border-radius: 50%;\n    animation: ripple 2s linear infinite;\n  }\n\n  #notification-banner .ripple-circle::after {\n    animation-delay: 1s;\n  }\n\n  @keyframes ripple {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.5);\n      opacity: 0.5;\n    }\n    100% {\n      transform: scale(2);\n      opacity: 0;\n    }\n  }\n</style>\n\n<div id=\"notification-banner\">\n  <div class=\"ripple-circle\"></div>\n  <div>Plus que 4 en stock</div>\n</div>"
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -79,7 +61,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#ecc485",
+            "atc_button_background": "#477d9c",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -88,7 +70,6 @@
         "image_Rnk8tL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cccccc.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -96,7 +77,6 @@
         "image_bCAXPQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/payn.webp",
             "alignment": "center",
             "max_width": 500
           }
@@ -106,9 +86,6 @@
         "liquid_DXAALT",
         "title",
         "price",
-        "liquid_zCXcFa",
-        "liquid_gyjkwc",
-        "liquid_GTxAnm",
         "separator",
         "description",
         "variant_picker",
@@ -137,20 +114,6 @@
     },
     "rich_text_XfMtHV": {
       "type": "rich-text",
-      "blocks": {
-        "heading_jGax9L": {
-          "type": "heading",
-          "settings": {
-            "text": "Pourquoi vous allez l’adorer 💕",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_jGax9L"
-      ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -161,38 +124,8 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_6jdCJY": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Copie_de_Template_section_benefice.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "rich_text_ztPPMx": {
       "type": "rich-text",
-      "blocks": {
-        "heading_jnHRM3": {
-          "type": "heading",
-          "settings": {
-            "text": "Avant/Après : la magie SmoothUp ✨",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_jnHRM3"
-      ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -203,143 +136,8 @@
         "text_color": ""
       }
     },
-    "video_kwYzjg": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/Sans.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "multi_column_N6aYnj": {
-      "type": "multi-column",
-      "blocks": {
-        "item_XF37W7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/a70f490c-bf13-4eb6-b87d-b2b3bd3d566c.png",
-            "column_size": "3",
-            "title": "Sofia B.",
-            "heading_tag": "h4",
-            "content": "<p>\"C'est tout simplement le meilleur soutien-gorge adhésif que j'ai jamais essayé. Il tient parfaitement des deux côtés, je l'ai porté plus de 10 heures et il est resté collant toute la journée.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_iP4jnm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/SnapInsta.to_467321817_17986821644766320_4455698533335326133_n.jpg",
-            "column_size": "3",
-            "title": "Sophie V.",
-            "heading_tag": "h4",
-            "content": "<p>\"Ils soulèvent vraiment bien une fois qu'on a compris le principe. Je pense que c'est une excellente solution, surtout si vous souhaitez un joli décolleté sans que les bretelles se voient.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_ceKTcF": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/594569.png",
-            "column_size": "3",
-            "title": "Anaïs D.",
-            "heading_tag": "h4",
-            "content": "<p>\"Je le recommande vivement, je suis tombée sur ce soutien gorge adhésif par hasard. Il a parfaitement mis en valeur mon haut et il est passé inaperçu. Mon mari a beaucoup aimé l'effet.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_DefHTH": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/monokas-pushpads-2-seitig-klebende-nippelcover-perfekt-fur-den-sommer-344474.webp",
-            "column_size": "3",
-            "title": "Anna M.",
-            "heading_tag": "h4",
-            "content": "<p>\"Je cherchais une solution pour pouvoir porter des tops et des robes sans bretelles sans avoir à me soucier des marques de soutien-gorge. Celui-ci est juste parfait !\"<br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_dcr6jG": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1cc9aecb-caf6-48ba-8087-3c481d4a4bdf.png",
-            "column_size": "3",
-            "title": "Léa P.",
-            "heading_tag": "h4",
-            "content": "<p>\"La différence est dingue !<br/>C'est vraiment incroyable à quel point il vous donne un coup de pouce. Il est resté bien en place toute la journée et personne ne l'a remarqué.<br/>Excellent produit et excellente idée.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_FdLEYp": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/55.png",
-            "column_size": "3",
-            "title": "Emilie C.",
-            "heading_tag": "h4",
-            "content": "<p>\"À première vue, on pourrait penser que j'ai une grosse poitrine alors que pas du tout. Je fais un bonnet A mais grâce au Pushup de Sleekee j'ai l'impression de faire un bonnet C !\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_XF37W7",
-        "item_iP4jnm",
-        "item_ceKTcF",
-        "item_DefHTH",
-        "item_dcr6jG",
-        "item_FdLEYp"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Nos clientes en parlent le mieux",
-        "content": "",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "1752694729d35dcaf4": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_8tXbcf": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 10,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_8tXbcf"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -353,93 +151,12 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
-    },
-    "faq_eDPayz": {
-      "type": "faq",
-      "blocks": {
-        "item_yXdkfn": {
-          "type": "item",
-          "settings": {
-            "title": "Comment choisir ma taille ?",
-            "content": "<p>Nous vous recommandons de choisir votre taille de soutien gorge actuelle. Si vous êtes entre deux tailles, nous vous recommandons de choisir la plus grande.</p><p>Vous pouvez également consulter le guide des tailles.</p>"
-          }
-        },
-        "item_MFztUN": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que je peux le nettoyer ?",
-            "content": "<p>Le Sleeky SmoothUp est fabriqué avec un adhésif en silicone lavable. Ce qui signifie qu'il peut être facilement nettoyé avec de l'eau tiède et du savon.</p><p>Laissez ensuite sécher et ne recollez le film sur le soutien gorge que lorsqu'il est complètement sec.</p>"
-          }
-        },
-        "item_CMrUQ9": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que je peux l'échanger ?",
-            "content": "<p>Nous vous offrons un échange sans problème grâce à notre garantie d'échange  gratuit.</p><p>Si la taille ne convient pas, nous vous enverrons celui adapté à vous gratuitement.</p>"
-          }
-        },
-        "item_CJcwRw": {
-          "type": "item",
-          "settings": {
-            "title": "Combien de fois est-ce que je peux l'utiliser ?",
-            "content": "<p>Avec un bon entretien, Sleekee SmoothUp peut-être utilisé plus de 30 fois.</p>"
-          }
-        },
-        "item_E8tFNa": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce qu'il tient toute la journée, même en été ?",
-            "content": "<p>Oui, le SmoothUp est conçu pour tenir toute la journée ou soirée, même par temps chaud ou en cas de transpiration. Idéal pour les mariages, soirées ou journées actives !</p>"
-          }
-        },
-        "item_hGcTWr": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce qu'il colle bien sans faire mal à la peau ?",
-            "content": "<p> L’adhésif en silicone est hypoallergénique, doux pour la peau et sans latex. Il colle parfaitement sans irritation. Un confort assuré, même sur peau sensible.<br/><br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_yXdkfn",
-        "item_MFztUN",
-        "item_CMrUQ9",
-        "item_CJcwRw",
-        "item_E8tFNa",
-        "item_hGcTWr"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#1a1a1a",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "rgba(0,0,0,0)",
-        "accordion_background": "rgba(0,0,0,0)",
-        "accordion_text_color": "#393939"
-      }
     }
   },
   "order": [
     "main",
     "rich_text_XfMtHV",
-    "image_with_text_overlay_6jdCJY",
     "rich_text_ztPPMx",
-    "video_kwYzjg",
-    "multi_column_N6aYnj",
-    "1752694729d35dcaf4",
-    "faq_eDPayz"
+    "1752694729d35dcaf4"
   ]
 }

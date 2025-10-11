@@ -184,6 +184,7 @@
         },
         "variant_picker_6LnEUa": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -202,6 +203,12 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "kaching_bundles_app_block_ka9Apj": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "buy_buttons_g8BmiY": {
           "type": "buy_buttons",
           "settings": {
@@ -212,10 +219,6 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "pickup_availability_YqpAia": {
-          "type": "pickup_availability",
-          "settings": {}
         }
       },
       "block_order": [
@@ -227,8 +230,8 @@
         "variant_picker_6LnEUa",
         "liquid_eUxnjV",
         "quantity_selector_ktqL4H",
-        "buy_buttons_g8BmiY",
-        "pickup_availability_YqpAia"
+        "kaching_bundles_app_block_ka9Apj",
+        "buy_buttons_g8BmiY"
       ],
       "name": "Featured product",
       "settings": {
@@ -251,6 +254,7 @@
     },
     "contact_kjEYQf": {
       "type": "contact",
+      "disabled": true,
       "name": "Contact form",
       "settings": {
         "full_width": true,
@@ -269,6 +273,67 @@
         "button_background": "#477d9c",
         "button_text_color": ""
       }
+    },
+    "faq_nUFTpE": {
+      "type": "faq",
+      "blocks": {
+        "item_AtyMM3": {
+          "type": "item",
+          "settings": {
+            "title": "Do I need experience with kinesiology tapes ?",
+            "content": "<p><strong>No worries – not at all!</strong><br/><br/>That’s exactly why <strong>STRAPEX™</strong> was created. Our tapes come <em>pre-cut</em> and perfectly shaped to fit your joint — no medical knowledge needed.<br/><br/>Just apply it, and let the smart design and flexible material do the work for you.</p>"
+          }
+        },
+        "item_RrxqAw": {
+          "type": "item",
+          "settings": {
+            "title": "How tight should I apply the tape ?",
+            "content": "<p>Apply the tape with <strong>light tension</strong> — it’s made to <strong>support</strong>, not to squeeze.<br/></p><p>Make sure it feels <strong>comfortable</strong>, doesn’t restrict your circulation, and lies <strong>smoothly on the skin</strong> without wrinkles.</p>"
+          }
+        },
+        "item_ji6ecC": {
+          "type": "item",
+          "settings": {
+            "title": "What makes STRAPEX™ different from regular tape rolls ?",
+            "content": "<p>Simple — <strong>no cutting, no guessing, no hassle.</strong><br/><br/>STRAPEX™ comes <strong>pre-cut and ergonomically designed</strong>, ready to use in seconds.<br/><br/>You’ll save time, avoid mistakes, and get the <strong>exact support your joints need.</strong><br/><br/>It’s a total <strong>game-changer</strong>, especially for beginners.</p>"
+          }
+        },
+        "item_wTQUJB": {
+          "type": "item",
+          "settings": {
+            "title": "Is the tape suitable for sensitive skin ?",
+            "content": "<p>Absolutely. <strong>STRAPEX™</strong> is made from <strong>skin-friendly, latex-free materials</strong>, specially developed for sensitive skin.<br/><br/>Many of our customers report <strong>no irritation or itching</strong>, even after wearing it for several days.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AtyMM3",
+        "item_RrxqAw",
+        "item_ji6ecC",
+        "item_wTQUJB"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "#ffffff",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -277,6 +342,7 @@
     "image_with_text_overlay_tjAGaw",
     "video_VFxL3N",
     "featured_product_TNWUpG",
-    "contact_kjEYQf"
+    "contact_kjEYQf",
+    "faq_nUFTpE"
   ]
 }

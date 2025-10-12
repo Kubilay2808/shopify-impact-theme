@@ -401,7 +401,7 @@
   "password": {
     "general": {
       "follow_us": "Follow us",
-      "powered_by": "This shop is powered by",
+      "powered_by": " ",
       "store_owner": "Store owner?",
       "login": "Login"
     },
@@ -737,6 +737,9 @@
       "search_results": {
         "many": "Search: %{count} results found for \"%{terms}\""
       }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   },
   "customer_accounts": {

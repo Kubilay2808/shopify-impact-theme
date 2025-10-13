@@ -41,8 +41,8 @@
         "show_checkout_button": true,
         "recommendations_title": "",
         "products": [],
-        "product_card_background": "#f2f2f2",
-        "product_card_text_color": ""
+        "product_card_background": "#477d9c",
+        "product_card_text_color": "#477d9c"
       }
     },
     "search-drawer": {

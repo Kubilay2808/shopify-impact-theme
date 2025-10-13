@@ -439,6 +439,68 @@
         "accordion_background": "#ffffff",
         "accordion_text_color": ""
       }
+    },
+    "multi_column_KBHtwM": {
+      "type": "multi-column",
+      "blocks": {
+        "item_tfTiq8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Section_2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hf46nd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Section_1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WX6EXm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Section_3.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_tfTiq8",
+        "item_hf46nd",
+        "item_WX6EXm"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "The first pre-cut kinesiology tape designed to keep up with you — durable, waterproof, and ready in seconds.",
+        "title": "Move Freely, Stay Supported",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -449,6 +511,7 @@
     "image_with_text_overlay_WpJVxp",
     "featured_product_TNWUpG",
     "media_with_text_paBVQP",
+    "multi_column_KBHtwM",
     "contact_kjEYQf",
     "17603013216af01165",
     "faq_nUFTpE"

@@ -16,7 +16,7 @@
           "type": "totals",
           "settings": {
             "show_order_weight": false,
-            "show_shipping_text": false
+            "show_shipping_text": true
           }
         },
         "cart_note": {
@@ -34,7 +34,7 @@
         "checkout_button"
       ],
       "settings": {
-        "show_shipping_estimator": false,
+        "show_shipping_estimator": true,
         "show_payment_icons": true
       }
     }

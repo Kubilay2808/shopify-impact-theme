@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Pagina {{ page }}",
@@ -36,7 +45,7 @@
       "subscribed_successfully": "Ti sei iscritto alla nostra newsletter."
     },
     "localization": {
-      "country": "Paese\/Area geografica",
+      "country": "Paese/Area geografica",
       "language": "Lingua"
     },
     "privacy_bar": {
@@ -84,7 +93,7 @@
       "view_in_space": "Visualizza nel tuo spazio",
       "taxes_included": "Tasse incluse.",
       "taxes_excluded": "Tasse escluse.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Spedizione calcolata<\/a> al checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Spedizione calcolata</a> al checkout",
       "size_chart": "Tabella taglie",
       "available_colors_count": {
         "one": "{{ count }} colore disponibile",
@@ -412,6 +421,42 @@
         "zero": "Questo prodotto non ha ancora nessuna recensione.",
         "one": "Questo prodotto ha {{ count }} recensione.",
         "other": "Questo prodotto ha {{ count }} recensioni."
+      }
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "payment": {
+        "bank_account_vaulted_company_location": "Conto bancario salvato per questa posizione",
+        "bank_account_generic_error": "Impossibile aggiungere il conto bancario. Riprova più tardi."
+      },
+      "payment_errors": {
+        "captcha_required": "Inserisci le informazioni di pagamento e risolvi il captcha per completare l'acquisto."
+      },
+      "payment_gateway": {
+        "bank_account_label": "Conto bancario"
+      },
+      "offsite_payment_failed": {
+        "title": "Pagamento fuori sede non riuscito"
+      }
+    }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "update_payment_method": {
+        "title": "Aggiorna il metodo di pagamento",
+        "button_title": "Aggiornamento",
+        "billing_address": "Indirizzo di fatturazione",
+        "disclaimer": "Questo metodo di pagamento verrà salvato per acquisti futuri e potrà essere utilizzato per qualsiasi acquisto ricorrente o differito.",
+        "error_message": "Impossibile aggiornare il metodo di pagamento",
+        "current": "Attuale"
+      }
+    },
+    "orders": {
+      "order_status": {
+        "delivered_description_digital": {
+          "many": "Questi articoli sono terminati."
+        }
       }
     }
   }

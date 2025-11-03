@@ -20,8 +20,8 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "subheading": "Our customer service is available 7 days a week. Average response time: 24 hours.",
-        "title": "Got a question ?",
+        "subheading": "Notre service client est disponible 7 jours sur 7. Délai de réponse moyen : 24 heures.",
+        "title": "Une question ?",
         "content": "",
         "text_position": "center",
         "contact_form_size": "large",

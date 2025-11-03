@@ -17,8 +17,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Sleekee_Tapes_Bandes_kinesiologiques_predecoupees.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_9_oct._2025_11_04_17.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -110,7 +108,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -145,22 +142,6 @@
         "video_size": "auto",
         "video": "shopify://files/videos/Sleekee™ Tapes – Bandes kinésiologiques prédécoupées_9998bcac-4781-4213-a4ee-c8299f0b7eab.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "image_with_text_overlay_WpJVxp": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Her_bann.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -303,103 +284,6 @@
         "input_text_color": ""
       }
     },
-    "media_with_text_paBVQP": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_jUAYR7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Psyotherapist_in_Canada_1716809844.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Dr. Alex Warren, DPT – Sports Physiotherapist",
-            "content": "<p>“For patellofemoral pain and general knee instability, <strong>STRAPEX™</strong> provides fast, targeted support without restricting motion.<br/>The <strong>pre-cut, ergonomic shape</strong> ensures correct placement even for first-time users, while the <strong>elastic, skin-friendly fabric</strong> promotes natural movement and proprioception.<br/>It’s a simple way to stabilise the knee during training or daily activity.”</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_jUAYR7"
-      ],
-      "name": "Media with text",
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "multi_column_KBHtwM": {
-      "type": "multi-column",
-      "blocks": {
-        "item_tfTiq8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Section_2.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_hf46nd": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Section_1.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_WX6EXm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Section_3.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_tfTiq8",
-        "item_hf46nd",
-        "item_WX6EXm"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "The first pre-cut kinesiology tape designed to keep up with you — durable, waterproof, and ready in seconds.",
-        "title": "Move Freely, Stay Supported",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "contact_kjEYQf": {
       "type": "contact",
       "disabled": true,
@@ -522,10 +406,7 @@
     "multi_column_9pfc4A",
     "image_with_text_overlay_tjAGaw",
     "video_VFxL3N",
-    "image_with_text_overlay_WpJVxp",
     "featured_product_TNWUpG",
-    "media_with_text_paBVQP",
-    "multi_column_KBHtwM",
     "contact_kjEYQf",
     "17603013216af01165",
     "faq_nUFTpE"

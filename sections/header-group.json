@@ -54,7 +54,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#477d9c",
+        "background": "#2d4b5c",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -65,8 +65,8 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
-        "logo": "shopify://shop_images/Vrai_logo_mtn.png",
-        "logo_max_width": 200,
+        "logo": "shopify://shop_images/otaku3d-logo-transparent-final.png",
+        "logo_max_width": 260,
         "logo_mobile_max_width": 140,
         "menu": "main-menu",
         "sidebar_menu": "",

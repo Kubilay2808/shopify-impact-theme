@@ -36,11 +36,12 @@
         "image_EheRht": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Entre_brillance_relief_et_effet_3D_nos_coques_transforment_votre_telephone_en_piece_de_collection._Style_unique_et_inspire_de_vos_univers_favoris.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -48,7 +49,49 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_p7NYDq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dbe.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_qYzUEm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SNK.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -56,7 +99,9 @@
       },
       "block_order": [
         "image_iYEXDU",
-        "image_EheRht"
+        "image_EheRht",
+        "image_p7NYDq",
+        "image_qYzUEm"
       ],
       "name": "Slideshow",
       "settings": {
@@ -66,18 +111,18 @@
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": false,
-        "cycle_speed": 6,
+        "cycle_speed": 4,
         "background": "#000000",
         "background_gradient": ""
       }
     },
-    "multi_column_9pfc4A": {
+    "multi_column_hViEXp": {
       "type": "multi-column",
       "blocks": {
-        "item_xwTNpa": {
+        "item_JbqKef": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Mens-Health-logo.png",
+            "image": "shopify://shop_images/Design_sans_titre.svg",
             "column_size": "4",
             "title": "",
             "heading_tag": "h4",
@@ -87,10 +132,10 @@
             "link_style": "link"
           }
         },
-        "item_zUT93X": {
+        "item_8Uc83B": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/The_Guardian_2018.svg",
+            "image": "shopify://shop_images/Design_sans_titre_1.svg",
             "column_size": "4",
             "title": "",
             "heading_tag": "h4",
@@ -100,10 +145,10 @@
             "link_style": "link"
           }
         },
-        "item_dQCdgA": {
+        "item_F87iLU": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/GQ-Emblem.png",
+            "image": "shopify://shop_images/Design_sans_titre_2.svg",
             "column_size": "4",
             "title": "",
             "heading_tag": "h4",
@@ -113,10 +158,10 @@
             "link_style": "link"
           }
         },
-        "item_pdcwUd": {
+        "item_znJjNi": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Womens-Health-Logo.jpg",
+            "image": "shopify://shop_images/Design_sans_titre_4.svg",
             "column_size": "4",
             "title": "",
             "heading_tag": "h4",
@@ -128,10 +173,10 @@
         }
       },
       "block_order": [
-        "item_xwTNpa",
-        "item_zUT93X",
-        "item_dQCdgA",
-        "item_pdcwUd"
+        "item_JbqKef",
+        "item_8Uc83B",
+        "item_F87iLU",
+        "item_znJjNi"
       ],
       "name": "Multi-column",
       "settings": {
@@ -139,59 +184,12 @@
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "center",
-        "subheading": "As seen in",
-        "title": "",
+        "subheading": "",
+        "title": "Recommandé par",
         "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "image_with_text_overlay_tjAGaw": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "video_VFxL3N": {
-      "type": "video",
-      "blocks": {
-        "play_HyRxgz": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_eGeLDy": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_HyRxgz",
-        "heading_eGeLDy"
-      ],
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/Sleekee™ Tapes – Bandes kinésiologiques prédécoupées_9998bcac-4781-4213-a4ee-c8299f0b7eab.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "featured_product_TNWUpG": {
@@ -443,16 +441,14 @@
         "heading_gradient": "",
         "button_background": "#ffffff",
         "button_text_color": "",
-        "accordion_background": "#ffffff",
+        "accordion_background": "#292929",
         "accordion_text_color": ""
       }
     }
   },
   "order": [
     "slideshow_eb43qa",
-    "multi_column_9pfc4A",
-    "image_with_text_overlay_tjAGaw",
-    "video_VFxL3N",
+    "multi_column_hViEXp",
     "featured_product_TNWUpG",
     "contact_kjEYQf",
     "17603013216af01165",

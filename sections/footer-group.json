@@ -19,12 +19,12 @@
           "settings": {
             "icon": "picto-box",
             "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "circle",
-            "icon_background": "#00bfff",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#e48cff",
             "icon_color": "#ffffff",
             "title": "Livraison gratuite",
-            "content": ""
+            "content": "<p>En France & à l’international</p>"
           }
         },
         "customer-support": {
@@ -32,12 +32,12 @@
           "settings": {
             "icon": "picto-customer-support",
             "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "circle",
-            "icon_background": "#00bfff",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#e48cff",
             "icon_color": "#ffffff",
             "title": "Service client 7J/J",
-            "content": ""
+            "content": "<p>Réponses sous 24h</p>"
           }
         },
         "discount": {
@@ -45,12 +45,12 @@
           "settings": {
             "icon": "picto-return",
             "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "circle",
-            "icon_background": "#00bfff",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#e48cff",
             "icon_color": "#ffffff",
             "title": "Satisfait ou remboursé",
-            "content": ""
+            "content": "<p>Achat sans risque, satisfaction garantie</p>"
           }
         },
         "payment": {
@@ -58,12 +58,12 @@
           "settings": {
             "icon": "picto-lock",
             "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "circle",
-            "icon_background": "#00bfff",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#e48cff",
             "icon_color": "#ffffff",
             "title": "Paiement sécurisé",
-            "content": ""
+            "content": "<p>SSL & cryptage bancaire</p>"
           }
         }
       },
@@ -81,8 +81,8 @@
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "#000000",
-        "background_gradient": "",
-        "text_color": ""
+        "background_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+        "text_color": "#ffffff"
       }
     },
     "footer": {

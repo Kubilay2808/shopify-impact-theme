@@ -234,6 +234,7 @@
         "collection_nM7RWk",
         "collection_tfjNri"
       ],
+      "disabled": true,
       "name": "Collection list",
       "settings": {
         "full_width": true,

@@ -193,6 +193,36 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "collection_nM7RWk": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Design_sans_titre_9.svg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_tfjNri": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Design_sans_titre_12.svg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
@@ -200,7 +230,9 @@
         "collection_TGyqUH",
         "collection_He6YR8",
         "collection_tgyRhq",
-        "collection_WFUHkj"
+        "collection_WFUHkj",
+        "collection_nM7RWk",
+        "collection_tfjNri"
       ],
       "name": "Collection list",
       "settings": {
@@ -209,10 +241,10 @@
         "collections_per_row": 4,
         "show_progress_bar": true,
         "subheading": "",
-        "title": "Choisi ton univers préféré",
+        "title": "Découvre ton univers préféré",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "Voir tout",
         "background": "",
         "background_gradient": "linear-gradient(228deg, rgba(24, 0, 60, 1) 14%, rgba(11, 35, 74, 1) 83%)",
         "text_color": "",

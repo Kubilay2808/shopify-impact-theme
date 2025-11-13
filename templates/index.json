@@ -455,19 +455,12 @@
         },
         "variant_picker_6LnEUa": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
-            "selector_mode": "block",
+            "selector_mode": "dropdown",
             "color_mode": "color",
             "size_chart_page": ""
-          }
-        },
-        "text_QKLCde": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>The first pre-cut kinesiology tapes that <strong>anyone can apply perfectly !</strong></h5><p>No experience, no hassle — just <strong>peel, stick, and feel the difference</strong> with <strong>STRAPEX™</strong></p>"
           }
         },
         "liquid_eUxnjV": {
@@ -529,7 +522,6 @@
         "separator_bVnqzB",
         "description_hmkn6t",
         "variant_picker_6LnEUa",
-        "text_QKLCde",
         "liquid_eUxnjV",
         "quantity_selector_ktqL4H",
         "liquid_rk3Cai",
@@ -542,7 +534,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": false,
-        "product": "strapex™-pre-cut-kinesiology-knee-tape",
+        "product": "coques-3d-lenticulaires-ton-univers-prend-vie-sur-ton-telephone",
         "desktop_media_width": 60,
         "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",

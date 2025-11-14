@@ -380,11 +380,12 @@
         "liquid_eUxnjV": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"spx-features\">\n  {% assign features = \"\n  Instant pain relief & support|\n  Pre-cut for a perfect fit|\n  Physio-designed pattern|\n  Water & sweat resistant|\n  \n \" | strip | split: \"|\" %}\n\n  <ul class=\"spx-grid\">\n    {% for f in features %}\n      {% assign text = f | strip %}\n      {% if text != \"\" %}\n      <li class=\"spx-pill\">\n        <span class=\"spx-check\" aria-hidden=\"true\">\n          <!-- inline SVG check -->\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n            <circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"white\" stroke-width=\"2\" opacity=\".25\"/>\n            <path d=\"M6.5 12.5l3.2 3.2L17.5 8\" stroke=\"white\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          </svg>\n        </span>\n        <span class=\"spx-text\">{{ text }}</span>\n      </li>\n      {% endif %}\n    {% endfor %}\n  </ul>\n</div>\n\n<style>\n/* container */\n.spx-features{ margin: .75rem 0 1rem; }\n/* grid */\n.spx-grid{\n  list-style:none; margin:0; padding:0;\n  display:grid; gap:.6rem;\n  grid-template-columns: repeat(2, minmax(0,1fr));\n}\n@media (max-width: 640px){\n  .spx-grid{ grid-template-columns: 1fr; }\n}\n/* pill */\n.spx-pill{\n  display:flex; align-items:center; gap:.6rem;\n  background:#e9f5ff; /* light blue */\n  border:1px solid #cfe9ff;\n  border-radius:.75rem; padding:.65rem .8rem;\n}\n/* check icon bubble */\n.spx-check{\n  display:grid; place-items:center;\n  width:26px; height:26px; border-radius:50%;\n  background:#2f86ff; /* Strapex blue accent */\n  box-shadow:0 1px 0 rgba(0,0,0,.05) inset;\n}\n/* text */\n.spx-text{\n  color:#0f172a; font:600 14px/1.2 Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n}\n/* compact mode option: add class 'spx-compact' to .spx-features to shrink */\n.spx-compact .spx-pill{ padding:.5rem .65rem }\n.spx-compact .spx-text{ font-weight:500; font-size:13.5px }\n</style>"
+            "liquid": "<div class=\"spx-features\">\n  {% assign features = \"\n  Effet 3D lenticulaire – Ultra immersif|\n  Matériaux premium – Anti-rayures & anti-chocs|\n  Découpes précises – Ajustement parfait|\n  Texture douce & grip amélioré|\n  \n \" | strip | split: \"|\" %}\n\n  <ul class=\"spx-grid\">\n    {% for f in features %}\n      {% assign text = f | strip %}\n      {% if text != \"\" %}\n      <li class=\"spx-pill\">\n        <span class=\"spx-check\" aria-hidden=\"true\">\n          <!-- inline SVG check -->\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n            <circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"white\" stroke-width=\"2\" opacity=\".25\"/>\n            <path d=\"M6.5 12.5l3.2 3.2L17.5 8\" stroke=\"white\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          </svg>\n        </span>\n        <span class=\"spx-text\">{{ text }}</span>\n      </li>\n      {% endif %}\n    {% endfor %}\n  </ul>\n</div>\n\n<style>\n/* container */\n.spx-features{ margin: .75rem 0 1rem; }\n/* grid */\n.spx-grid{\n  list-style:none; margin:0; padding:0;\n  display:grid; gap:.6rem;\n  grid-template-columns: repeat(2, minmax(0,1fr));\n}\n@media (max-width: 640px){\n  .spx-grid{ grid-template-columns: 1fr; }\n}\n/* pill */\n.spx-pill{\n  display:flex; align-items:center; gap:.6rem;\n  background:#e9f5ff; /* light blue */\n  border:1px solid #cfe9ff;\n  border-radius:.75rem; padding:.65rem .8rem;\n}\n/* check icon bubble */\n.spx-check{\n  display:grid; place-items:center;\n  width:26px; height:26px; border-radius:50%;\n  background:#2f86ff; /* Strapex blue accent */\n  box-shadow:0 1px 0 rgba(0,0,0,.05) inset;\n}\n/* text */\n.spx-text{\n  color:#0f172a; font:600 14px/1.2 Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n}\n/* compact mode option: add class 'spx-compact' to .spx-features to shrink */\n.spx-compact .spx-pill{ padding:.5rem .65rem }\n.spx-compact .spx-text{ font-weight:500; font-size:13.5px }\n</style>"
           }
         },
         "variant_picker_6LnEUa": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -529,61 +530,6 @@
         "text_color": ""
       }
     },
-    "contact_kjEYQf": {
-      "type": "contact",
-      "disabled": true,
-      "name": "Contact form",
-      "settings": {
-        "full_width": true,
-        "subheading": "Our customer service team is available 7 days a week. Average response time: within 24 hours.",
-        "title": "Got a Question ?",
-        "content": "<p>Write to us using the form below — we’ll get back to you as soon as possible.</p>",
-        "text_position": "center",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "#477d9c",
-        "button_text_color": ""
-      }
-    },
-    "17603013216af01165": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_P6Kme7": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": true,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_P6Kme7"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "faq_nUFTpE": {
       "type": "faq",
       "blocks": {
@@ -643,6 +589,61 @@
         "button_text_color": "",
         "accordion_background": "#292929",
         "accordion_text_color": ""
+      }
+    },
+    "contact_kjEYQf": {
+      "type": "contact",
+      "disabled": true,
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Our customer service team is available 7 days a week. Average response time: within 24 hours.",
+        "title": "Got a Question ?",
+        "content": "<p>Write to us using the form below — we’ll get back to you as soon as possible.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#477d9c",
+        "button_text_color": ""
+      }
+    },
+    "17603013216af01165": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_P6Kme7": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": true,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_P6Kme7"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     }
   },

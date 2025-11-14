@@ -345,82 +345,6 @@
         "overlay_opacity": 0
       }
     },
-    "multi_column_frfBMP": {
-      "type": "multi-column",
-      "blocks": {
-        "item_f4MMd4": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/ssstwitter.com_1762468549099.mp4",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_8izr9Y": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/OP.mp4",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_fHVLFY": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/snaptik_7241156366080003355_v2.mp4",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_eEGhF4": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/snaptik_7348711891260198150_hd.mp4",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_f4MMd4",
-        "item_8izr9Y",
-        "item_fHVLFY",
-        "item_eEGhF4"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Vos héros prennent vie sous vos yeux 🔥",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured_product_TNWUpG": {
       "type": "featured-product",
       "blocks": {
@@ -527,6 +451,82 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "multi_column_frfBMP": {
+      "type": "multi-column",
+      "blocks": {
+        "item_f4MMd4": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/ssstwitter.com_1762468549099.mp4",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_8izr9Y": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/OP.mp4",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_fHVLFY": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/snaptik_7241156366080003355_v2.mp4",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eEGhF4": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/snaptik_7348711891260198150_hd.mp4",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_f4MMd4",
+        "item_8izr9Y",
+        "item_fHVLFY",
+        "item_eEGhF4"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Vos héros prennent vie sous vos yeux 🔥",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "contact_kjEYQf": {
@@ -651,10 +651,10 @@
     "collection_list_qyc4CL",
     "multi_column_hViEXp",
     "image_with_text_overlay_jfmfrJ",
-    "multi_column_frfBMP",
     "featured_product_TNWUpG",
+    "multi_column_frfBMP",
+    "faq_nUFTpE",
     "contact_kjEYQf",
-    "17603013216af01165",
-    "faq_nUFTpE"
+    "17603013216af01165"
   ]
 }

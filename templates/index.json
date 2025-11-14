@@ -348,12 +348,6 @@
     "featured_product_TNWUpG": {
       "type": "featured-product",
       "blocks": {
-        "liquid_KBPHgr": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400; /* Koyu yeşil border */\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img {\n            margin: 0 10px;\n        }\n        .container-trustpilot .stars {\n            max-width: 80px; /* Increased size for the star image */\n        }\n        .container-trustpilot .logo {\n            max-width: 70px;\n        }\n        .container-trustpilot span {\n            margin: 0 5px;\n        }\n        .excellent {\n            color: #000;\n            font-size: 12px;\n        }\n        .rating-text {\n            color: #000;\n            font-size: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.4/5 Rating\">\n        <span class=\"rating-text\">noté 4.8/5 sur</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>"
-          }
-        },
         "title_jy4K8H": {
           "type": "title",
           "settings": {
@@ -364,6 +358,12 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "liquid_KBPHgr": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400; /* Koyu yeşil border */\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img {\n            margin: 0 10px;\n        }\n        .container-trustpilot .stars {\n            max-width: 80px; /* Increased size for the star image */\n        }\n        .container-trustpilot .logo {\n            max-width: 70px;\n        }\n        .container-trustpilot span {\n            margin: 0 5px;\n        }\n        .excellent {\n            color: #000;\n            font-size: 12px;\n        }\n        .rating-text {\n            color: #000;\n            font-size: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.4/5 Rating\">\n        <span class=\"rating-text\">noté 4.8/5 sur</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>"
           }
         },
         "separator_bVnqzB": {
@@ -415,6 +415,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_879wAx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"otk-assurance\">\n  <!-- Bandeau livraison -->\n  <div class=\"otk-assurance-top\">\n    <span class=\"otk-top-icon\">📦</span>\n    <span class=\"otk-top-text\">Livraison en 3 à 5 jours ouvrés</span>\n  </div>\n\n  <!-- Cartes bénéfices -->\n  <div class=\"otk-assurance-bottom\">\n    <div class=\"otk-benefit\">\n      <div class=\"otk-benefit-icon\">💸</div>\n      <div class=\"otk-benefit-text\">\n        Satisfait<br>ou remboursé\n      </div>\n    </div>\n\n    <div class=\"otk-benefit\">\n      <div class=\"otk-benefit-icon\">🚚</div>\n      <div class=\"otk-benefit-text\">\n        Livraison<br>gratuite\n      </div>\n    </div>\n\n    <div class=\"otk-benefit\">\n      <div class=\"otk-benefit-icon\">🔒</div>\n      <div class=\"otk-benefit-text\">\n        Paiement<br>sécurisé\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* ===== Container global ===== */\n.otk-assurance{\n  margin-top: 1.75rem;\n  border-radius: 22px;\n  overflow: hidden;\n  background: #020617;\n  border: 1px solid rgba(148,163,184,.35);\n}\n\n/* ===== Bandeau du haut ===== */\n.otk-assurance-top{\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  gap:.6rem;\n  padding:.9rem 1.25rem;\n  background: linear-gradient(90deg,#3b82f6,#8b5cf6,#ec4899);\n}\n\n.otk-top-icon{\n  font-size:1.3rem;\n}\n\n.otk-top-text{\n  color:#0b1120;\n  font-weight:700;\n  font-size:1.02rem;\n}\n\n/* ===== Zone des 3 cartes ===== */\n.otk-assurance-bottom{\n  padding:1.25rem 1.1rem 1.35rem;\n  display:grid;\n  gap:1rem;\n  grid-template-columns:repeat(3,minmax(0,1fr));\n}\n\n@media (max-width: 768px){\n  .otk-assurance-bottom{\n    grid-template-columns:1fr;\n  }\n}\n\n/* ===== Cartes individuelles ===== */\n.otk-benefit{\n  background: radial-gradient(circle at top,#0b1120,#020617);\n  border-radius:18px;\n  padding:1.1rem .75rem 1.05rem;\n  border:1px solid rgba(148,163,184,.35);\n  display:flex;\n  flex-direction:column;\n  align-items:center;      /* icône centrée */\n  justify-content:center;  /* contenu centré verticalement */\n  gap:.7rem;\n  text-align:center;       /* texte centré */\n}\n\n/* Icône ronde avec glow */\n.otk-benefit-icon{\n  width:42px;\n  height:42px;\n  border-radius:999px;\n  display:grid;\n  place-items:center;\n  background:radial-gradient(circle,#38bdf8,#0ea5e9);\n  box-shadow:0 0 18px rgba(56,189,248,.8);\n  font-size:1.35rem;\n}\n\n/* Texte de la carte */\n.otk-benefit-text{\n  color:#e5e7eb;\n  font-size:0.98rem;\n  font-weight:700;\n  line-height:1.25;\n  max-width:130px;\n}\n\n/* Légère compacité sur petits écrans */\n@media (max-width: 480px){\n  .otk-benefit{\n    padding:.9rem .7rem;\n  }\n  .otk-benefit-text{\n    font-size:.95rem;\n  }\n}\n</style>"
+          }
+        },
         "liquid_DjgxL3": {
           "type": "liquid",
           "settings": {
@@ -423,9 +429,9 @@
         }
       },
       "block_order": [
-        "liquid_KBPHgr",
         "title_jy4K8H",
         "price_zWNhh7",
+        "liquid_KBPHgr",
         "separator_bVnqzB",
         "description_hmkn6t",
         "liquid_eUxnjV",
@@ -433,6 +439,7 @@
         "quantity_selector_ktqL4H",
         "kaching_bundles_app_block_ka9Apj",
         "buy_buttons_g8BmiY",
+        "liquid_879wAx",
         "liquid_DjgxL3"
       ],
       "name": "Featured product",

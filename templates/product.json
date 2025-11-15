@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "liquid_dmUgnp": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400; /* Koyu yeşil border */\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img {\n            margin: 0 10px;\n        }\n        .container-trustpilot .stars {\n            max-width: 80px; /* Increased size for the star image */\n        }\n        .container-trustpilot .logo {\n            max-width: 70px;\n        }\n        .container-trustpilot span {\n            margin: 0 5px;\n        }\n        .excellent {\n            color: #000;\n            font-size: 12px;\n        }\n        .rating-text {\n            color: #000;\n            font-size: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.4/5 Rating\">\n        <span class=\"rating-text\">noté 4.8/5 sur</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -34,10 +28,16 @@
           "type": "separator",
           "settings": {}
         },
+        "liquid_dmUgnp": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400; /* Koyu yeşil border */\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img {\n            margin: 0 10px;\n        }\n        .container-trustpilot .stars {\n            max-width: 80px; /* Increased size for the star image */\n        }\n        .container-trustpilot .logo {\n            max-width: 70px;\n        }\n        .container-trustpilot span {\n            margin: 0 5px;\n        }\n        .excellent {\n            color: #000;\n            font-size: 12px;\n        }\n        .rating-text {\n            color: #000;\n            font-size: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.4/5 Rating\">\n        <span class=\"rating-text\">noté 4.8/5 sur</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>"
+          }
+        },
         "liquid_gAtrDh": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"spx-features\">\n  {% assign features = \"\n  Instant pain relief & support|\n  Pre-cut for a perfect fit|\n  Physio-designed pattern|\n  Water & sweat resistant|\n  \n \" | strip | split: \"|\" %}\n\n  <ul class=\"spx-grid\">\n    {% for f in features %}\n      {% assign text = f | strip %}\n      {% if text != \"\" %}\n      <li class=\"spx-pill\">\n        <span class=\"spx-check\" aria-hidden=\"true\">\n          <!-- inline SVG check -->\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n            <circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"white\" stroke-width=\"2\" opacity=\".25\"/>\n            <path d=\"M6.5 12.5l3.2 3.2L17.5 8\" stroke=\"white\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          </svg>\n        </span>\n        <span class=\"spx-text\">{{ text }}</span>\n      </li>\n      {% endif %}\n    {% endfor %}\n  </ul>\n</div>\n\n<style>\n/* container */\n.spx-features{ margin: .75rem 0 1rem; }\n/* grid */\n.spx-grid{\n  list-style:none; margin:0; padding:0;\n  display:grid; gap:.6rem;\n  grid-template-columns: repeat(2, minmax(0,1fr));\n}\n@media (max-width: 640px){\n  .spx-grid{ grid-template-columns: 1fr; }\n}\n/* pill */\n.spx-pill{\n  display:flex; align-items:center; gap:.6rem;\n  background:#e9f5ff; /* light blue */\n  border:1px solid #cfe9ff;\n  border-radius:.75rem; padding:.65rem .8rem;\n}\n/* check icon bubble */\n.spx-check{\n  display:grid; place-items:center;\n  width:26px; height:26px; border-radius:50%;\n  background:#2f86ff; /* Strapex blue accent */\n  box-shadow:0 1px 0 rgba(0,0,0,.05) inset;\n}\n/* text */\n.spx-text{\n  color:#0f172a; font:600 14px/1.2 Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n}\n/* compact mode option: add class 'spx-compact' to .spx-features to shrink */\n.spx-compact .spx-pill{ padding:.5rem .65rem }\n.spx-compact .spx-text{ font-weight:500; font-size:13.5px }\n</style>"
+            "liquid": "<div class=\"spx-features\">\n  {% assign features = \"\n  Effet 3D lenticulaire|\n  Protection anti-rayures & anti-chocs|\n Ajustement parfait pour ton modèle|\n  Couleurs éclatantes & détails ultra-HD\n  \" | strip | split: \"|\" %}\n\n  <ul class=\"spx-grid\">\n    {% for f in features %}\n      {% assign text = f | strip %}\n      {% if text != \"\" %}\n      <li class=\"spx-pill\">\n        <span class=\"spx-check\" aria-hidden=\"true\">\n          <!-- inline SVG check -->\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n            <circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"white\" stroke-width=\"2\" opacity=\".25\"/>\n            <path d=\"M6.5 12.5l3.2 3.2L17.5 8\" stroke=\"white\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          </svg>\n        </span>\n        <span class=\"spx-text\">{{ text }}</span>\n      </li>\n      {% endif %}\n    {% endfor %}\n  </ul>\n</div>\n\n<style>\n/* container */\n.spx-features{ margin:.75rem 0 1rem; }\n\n/* grid */\n.spx-grid{\n  list-style:none; margin:0; padding:0;\n  display:grid; gap:.6rem;\n  grid-template-columns:repeat(2,minmax(0,1fr));\n}\n@media (max-width:640px){\n  .spx-grid{ grid-template-columns:1fr; }\n}\n\n/* pill */\n.spx-pill{\n  display:flex; align-items:center; gap:.6rem;\n  background:rgba(15,23,42,.95);          /* fond dark bleu nuit */\n  border:1px solid rgba(56,189,248,.45);  /* bordure néon cyan */\n  border-radius:.75rem; padding:.65rem .8rem;\n}\n\n/* check icon bubble */\n.spx-check{\n  display:grid; place-items:center;\n  width:26px; height:26px; border-radius:50%;\n  background:#38bdf8;                    /* cyan néon Otaku3D */\n  box-shadow:0 0 12px rgba(56,189,248,.6);\n}\n\n/* text */\n.spx-text{\n  color:#e5f2ff;                          /* texte quasi blanc bleuté */\n  font:600 14px/1.2 Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;\n}\n\n/* compact mode option: add class 'spx-compact' to .spx-features to shrink */\n.spx-compact .spx-pill{ padding:.5rem .65rem }\n.spx-compact .spx-text{ font-weight:500; font-size:13.5px }\n</style>"
           }
         },
         "description": {
@@ -74,6 +74,12 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Payment Options</title>\n    <style>\n        body.unique-body-Pay123 {\n            font-family: Arial, sans-serif;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f9f9f9;\n        }\n        .unique-payment-container-Xyz456 {\n            text-align: center;\n        }\n        .unique-payment-options-Abc789 {\n            display: flex;\n            justify-content: center;\n            gap: 10px;\n        }\n        .unique-payment-options-Abc789 img {\n            width: 50px;\n            height: auto;\n        }\n    </style>\n</head>\n<body class=\"unique-body-Pay123\">\n    <div class=\"unique-payment-container-Xyz456\">\n        <div class=\"unique-payment-options-Abc789\">\n            <img src=\"https://www.svgrepo.com/show/14823/amex.svg\" alt=\"AMEX\">\n            <img src=\"https://www.svgrepo.com/show/508402/apple-pay.svg\" alt=\"Apple Pay\">\n            <img src=\"https://www.svgrepo.com/show/508703/mastercard.svg\" alt=\"MasterCard\">\n            <img src=\"https://www.svgrepo.com/show/508716/paypal.svg\" alt=\"PayPal\">\n            <img src=\"https://www.svgrepo.com/show/508690/google-pay.svg\" alt=\"Google Pay\">\n            <img src=\"https://www.svgrepo.com/show/508730/visa-classic.svg\" alt=\"VISA\">\n        </div>\n    </div>\n</body>\n</html>"
           }
         },
+        "liquid_Uh7e3w": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"otk-assurance otk-small\">\n  <!-- Bandeau livraison -->\n  <div class=\"otk-assurance-top\">\n    <span class=\"otk-top-icon\">📦</span>\n    <span class=\"otk-top-text\">Livraison en 3 à 5 jours ouvrés</span>\n  </div>\n\n  <!-- Cartes bénéfices -->\n  <div class=\"otk-assurance-bottom\">\n    <div class=\"otk-benefit\">\n      <div class=\"otk-benefit-icon\">💸</div>\n      <div class=\"otk-benefit-text\">\n        Satisfait<br>ou remboursé\n      </div>\n    </div>\n\n    <div class=\"otk-benefit\">\n      <div class=\"otk-benefit-icon\">🚚</div>\n      <div class=\"otk-benefit-text\">\n        Livraison<br>gratuite\n      </div>\n    </div>\n\n    <div class=\"otk-benefit\">\n      <div class=\"otk-benefit-icon\">🔒</div>\n      <div class=\"otk-benefit-text\">\n        Paiement<br>sécurisé\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n/* ===== Container global ===== */\n.otk-assurance{\n  margin-top: 1.25rem;\n  border-radius: 18px;\n  overflow: hidden;\n  background: #020617;\n  border: 1px solid rgba(148,163,184,.35);\n}\n\n/* ===== COMPACT MODE ===== */\n.otk-small .otk-assurance-top{\n  padding:.65rem 1rem;\n}\n\n.otk-small .otk-top-text{\n  font-size:.9rem;\n}\n\n.otk-small .otk-assurance-bottom{\n  padding:.9rem .8rem 1rem;\n  gap:.75rem;\n}\n\n.otk-small .otk-benefit{\n  padding:.75rem .6rem;\n  gap:.55rem;\n}\n\n.otk-small .otk-benefit-icon{\n  width:34px;\n  height:34px;\n  font-size:1.1rem;\n  box-shadow:0 0 14px rgba(56,189,248,.7);\n}\n\n.otk-small .otk-benefit-text{\n  font-size:.82rem;\n  max-width:110px;\n  line-height:1.2;\n}\n\n/* ===== Bandeau du haut ===== */\n.otk-assurance-top{\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  gap:.5rem;\n  background: linear-gradient(90deg,#3b82f6,#8b5cf6,#ec4899);\n}\n\n.otk-top-icon{\n  font-size:1.15rem;\n}\n\n.otk-top-text{\n  color:#0b1120;\n  font-weight:700;\n}\n\n/* ===== Zone des 3 cartes ===== */\n.otk-assurance-bottom{\n  display:grid;\n  grid-template-columns:repeat(3,minmax(0,1fr));\n}\n\n@media (max-width: 768px){\n  .otk-assurance-bottom{\n    grid-template-columns:1fr;\n  }\n}\n\n/* ===== Cartes individuelles ===== */\n.otk-benefit{\n  background: radial-gradient(circle at top,#0b1120,#020617);\n  border-radius:14px;\n  border:1px solid rgba(148,163,184,.35);\n  display:flex;\n  flex-direction:column;\n  align-items:center;\n  text-align:center;\n}\n\n/* Icône ronde */\n.otk-benefit-icon{\n  display:grid;\n  place-items:center;\n  border-radius:999px;\n  background:radial-gradient(circle,#38bdf8,#0ea5e9);\n}\n\n/* Texte */\n.otk-benefit-text{\n  color:#e5e7eb;\n  font-weight:700;\n}\n</style>"
+          }
+        },
         "image_Rnk8tL": {
           "type": "image",
           "settings": {
@@ -90,16 +96,17 @@
         }
       },
       "block_order": [
-        "liquid_dmUgnp",
         "title",
         "price",
         "separator",
+        "liquid_dmUgnp",
         "liquid_gAtrDh",
         "description",
         "quantity_selector",
         "kaching_bundles_app_block_rVy43i",
         "buy_buttons",
         "liquid_3kxiiH",
+        "liquid_Uh7e3w",
         "image_Rnk8tL",
         "image_bCAXPQ"
       ],
@@ -272,38 +279,6 @@
         "text_color": ""
       }
     },
-    "17606244984ab7a41b": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_wJ6gRA": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_wJ6gRA"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "faq_RF9WfF": {
       "type": "faq",
       "blocks": {
@@ -371,6 +346,38 @@
         "button_text_color": "",
         "accordion_background": "#1e1e1e",
         "accordion_text_color": ""
+      }
+    },
+    "17606244984ab7a41b": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_wJ6gRA": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_wJ6gRA"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "rich_text_XfMtHV": {

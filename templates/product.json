@@ -15,7 +15,7 @@
         "liquid_dmUgnp": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400; /* Koyu yeşil border */\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img {\n            margin: 0 10px;\n        }\n        .container-trustpilot .stars {\n            max-width: 80px; /* Increased size for the star image */\n        }\n        .container-trustpilot .logo {\n            max-width: 70px;\n        }\n        .container-trustpilot span {\n            margin: 0 5px;\n        }\n        .excellent {\n            color: #000;\n            font-size: 12px;\n        }\n        .rating-text {\n            color: #000;\n            font-size: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.4/5 Rating\">\n        <span class=\"rating-text\">rated 4.8/5 on</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>"
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400; /* Koyu yeşil border */\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img {\n            margin: 0 10px;\n        }\n        .container-trustpilot .stars {\n            max-width: 80px; /* Increased size for the star image */\n        }\n        .container-trustpilot .logo {\n            max-width: 70px;\n        }\n        .container-trustpilot span {\n            margin: 0 5px;\n        }\n        .excellent {\n            color: #000;\n            font-size: 12px;\n        }\n        .rating-text {\n            color: #000;\n            font-size: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.4/5 Rating\">\n        <span class=\"rating-text\">noté 4.8/5 sur</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>"
           }
         },
         "title": {
@@ -34,12 +34,6 @@
           "type": "separator",
           "settings": {}
         },
-        "text_TR9TV8": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>The first pre-cut kinesiology tapes that <strong>anyone can apply perfectly !</strong></h5><p>No experience, no hassle — just <strong>peel, stick, and feel the difference</strong> with <strong>STRAPEX™</strong></p>"
-          }
-        },
         "liquid_gAtrDh": {
           "type": "liquid",
           "settings": {
@@ -57,22 +51,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "liquid_eHAY6R": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Items Left Badge</title>\n<style>\n.unique-body-Xyz123 {\n  font-family: Arial, sans-serif;\n  background-color: #f9f9f9;\n  color: #333;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n.unique-container-Abc456 {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px; /* Badge'ler arasındaki boşluk */\n}\n\n.unique-badge-Def789 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #e0ffd8; /* Çok açık yeşil arka plan */\n  color: #004d00; /* Koyu yeşil metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-badge-Ghi012 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffdede; /* Açık kırmızı arka plan */\n  color: #b22222; /* Koyu kırmızı metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-icon-Jkl345 {\n  width: 12px; /* Küçültülmüş ikon boyutu */\n  height: 12px; /* Küçültülmüş ikon boyutu */\n  margin-right: 2px;\n  vertical-align: middle;\n}\n\n.unique-badge-Def789 span, .unique-badge-Ghi012 span {\n  display: flex;\n  align-items: center;\n  white-space: nowrap; /* Metinlerin tek satırda kalmasını sağlar */\n}\n\n@keyframes unique-rotate-Mno678 {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.unique-clock-hand-Pqr901 {\n  transform-origin: 50% 50%;\n  animation: unique-rotate-Mno678 2s linear infinite;\n}\n</style>\n</head>\n<body class=\"unique-body-Xyz123\">\n\n<div class=\"unique-container-Abc456\">\n  <div class=\"unique-badge-Def789\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path fill=\"#004d00\" d=\"M12 2C9.24 2 7 4.24 7 7V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H17V7C17 4.24 14.76 2 12 2M12 4C13.66 4 15 5.34 15 7V10H9V7C9 5.34 10.34 4 12 4M12 12C13.1 12 14 12.9 14 14C14 15.1 13.1 16 12 16C10.9 16 10 15.1 10 14C10 12.9 10.9 12 12 12Z\"/>\n      </svg>\n      30-day money back guarantee.\n    </span>\n  </div>\n\n  <div class=\"unique-badge-Ghi012\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#b22222\" stroke-width=\"2\" fill=\"none\"/>\n        <line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"6\" stroke=\"#b22222\" stroke-width=\"2\" class=\"unique-clock-hand-Pqr901\"/>\n        <line x1=\"12\" y1=\"12\" x2=\"16\" y2=\"12\" stroke=\"#b22222\" stroke-width=\"2\"/>\n      </svg>\n      Limited stock available!\n    </span>\n  </div>\n</div>\n</body>\n</html>"
-          }
-        },
         "kaching_bundles_app_block_rVy43i": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "{{product}}"
-          }
-        },
-        "liquid_BDpmrV": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"loved-by-customers\">\n  <span>📦  You've unlocked free shipping!</span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background-color: #D0FFE0;\n    color: #008454;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n    font-weight: \n  }\n</style>"
           }
         },
         "buy_buttons": {
@@ -90,12 +72,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Payment Options</title>\n    <style>\n        body.unique-body-Pay123 {\n            font-family: Arial, sans-serif;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f9f9f9;\n        }\n        .unique-payment-container-Xyz456 {\n            text-align: center;\n        }\n        .unique-payment-options-Abc789 {\n            display: flex;\n            justify-content: center;\n            gap: 10px;\n        }\n        .unique-payment-options-Abc789 img {\n            width: 50px;\n            height: auto;\n        }\n    </style>\n</head>\n<body class=\"unique-body-Pay123\">\n    <div class=\"unique-payment-container-Xyz456\">\n        <div class=\"unique-payment-options-Abc789\">\n            <img src=\"https://www.svgrepo.com/show/14823/amex.svg\" alt=\"AMEX\">\n            <img src=\"https://www.svgrepo.com/show/508402/apple-pay.svg\" alt=\"Apple Pay\">\n            <img src=\"https://www.svgrepo.com/show/508703/mastercard.svg\" alt=\"MasterCard\">\n            <img src=\"https://www.svgrepo.com/show/508716/paypal.svg\" alt=\"PayPal\">\n            <img src=\"https://www.svgrepo.com/show/508690/google-pay.svg\" alt=\"Google Pay\">\n            <img src=\"https://www.svgrepo.com/show/508730/visa-classic.svg\" alt=\"VISA\">\n        </div>\n    </div>\n</body>\n</html>"
-          }
-        },
-        "liquid_JmwzdP": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Shipping Information</title>\n    <style>\n        body.unique-body-Ship987 {\n            font-family: 'Arial', sans-serif;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f0f2f5;\n        }\n        .unique-shipping-info-Info654 {\n            display: flex;\n            align-items: center;\n            background-color: #fff;\n            padding: 10px 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n            font-size: 14px;\n            color: #333;\n            margin: 2px;\n        }\n        .unique-shipping-info-Info654 img {\n            margin-right: 8px;\n        }\n        .unique-shipping-info-Info654 span {\n            font-weight: 500;\n        }\n    </style>\n</head>\n<body class=\"unique-body-Ship987\">\n    <div class=\"unique-shipping-info-Info654\">\n        <img src=\"https://www.svgrepo.com/show/314607/shipping-fast-solid.svg\" alt=\"Shipping Icon\" width=\"20\" height=\"20\">\n        <span>Orders typically arrive in 5-7 working days</span>\n    </div>\n</body>\n</html>"
           }
         },
         "image_Rnk8tL": {
@@ -118,16 +94,12 @@
         "title",
         "price",
         "separator",
-        "text_TR9TV8",
         "liquid_gAtrDh",
         "description",
         "quantity_selector",
-        "liquid_eHAY6R",
         "kaching_bundles_app_block_rVy43i",
-        "liquid_BDpmrV",
         "buy_buttons",
         "liquid_3kxiiH",
-        "liquid_JmwzdP",
         "image_Rnk8tL",
         "image_bCAXPQ"
       ],
@@ -149,83 +121,66 @@
         "input_text_color": ""
       }
     },
-    "multi_column_VbCPaJ": {
-      "type": "multi-column",
+    "logo_list_zULJ6c": {
+      "type": "logo-list",
       "blocks": {
-        "item_3TzEaJ": {
-          "type": "item",
+        "logo_nmNXR6": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Mens-Health-logo.png",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "logo": "shopify://shop_images/Design_sans_titre.svg",
+            "logo_width": 300,
+            "link": ""
           }
         },
-        "item_CfVy6g": {
-          "type": "item",
+        "logo_AgyDaC": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/The_Guardian_2018.svg",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "logo": "shopify://shop_images/Design_sans_titre_1.svg",
+            "logo_width": 300,
+            "link": ""
           }
         },
-        "item_94LTqF": {
-          "type": "item",
+        "logo_gzjRPm": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/GQ-Emblem.png",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "logo": "shopify://shop_images/Design_sans_titre_2.svg",
+            "logo_width": 300,
+            "link": ""
           }
         },
-        "item_9wdiPy": {
-          "type": "item",
+        "logo_HqUWma": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Womens-Health-Logo.jpg",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "logo": "shopify://shop_images/Design_sans_titre_4.svg",
+            "logo_width": 300,
+            "link": ""
           }
         }
       },
       "block_order": [
-        "item_3TzEaJ",
-        "item_CfVy6g",
-        "item_94LTqF",
-        "item_9wdiPy"
+        "logo_nmNXR6",
+        "logo_AgyDaC",
+        "logo_gzjRPm",
+        "logo_HqUWma"
       ],
-      "name": "Multi-column",
+      "name": "Logo list",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "As seen in",
-        "title": "",
+        "stack_mobile": true,
+        "title": "Recommandé par",
         "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#0e0e0e",
+        "logo_item_border": "#000000"
       }
     },
-    "image_with_text_overlay_feVnJT": {
+    "image_with_text_overlay_Xdcfhb": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
@@ -233,7 +188,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices.png",
+        "image": "shopify://shop_images/Benefices.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -241,97 +196,14 @@
         "overlay_opacity": 0
       }
     },
-    "video_ELRdBK": {
-      "type": "video",
-      "blocks": {
-        "play_TBraGP": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_G4FWND": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_TBraGP",
-        "heading_G4FWND"
-      ],
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/Sleekee™ Tapes – Bandes kinésiologiques prédécoupées_9998bcac-4781-4213-a4ee-c8299f0b7eab.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "image_with_text_overlay_fp4Wwe": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Her_bann.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "media_with_text_qb3B8k": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_UH3XP7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Psyotherapist_in_Canada_1716809844.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Dr. Alex Warren, DPT – Sports Physiotherapist",
-            "content": "<p>“For patellofemoral pain and general knee instability, <strong>STRAPEX™</strong> provides fast, targeted support without restricting motion.<br/>The <strong>pre-cut, ergonomic shape</strong> ensures correct placement even for first-time users, while the <strong>elastic, skin-friendly fabric</strong> promotes natural movement and proprioception.<br/>It’s a simple way to stabilise the knee during training or daily activity.”</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_UH3XP7"
-      ],
-      "name": "Media with text",
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "multi_column_cpmKbh": {
+    "multi_column_yDmWF9": {
       "type": "multi-column",
       "blocks": {
-        "item_dzbrPM": {
+        "item_Qt4apw": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Section_2.png",
-            "column_size": "3",
+            "video": "shopify://files/videos/ssstwitter.com_1762468549099.mp4",
+            "column_size": "4",
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -340,11 +212,11 @@
             "link_style": "link"
           }
         },
-        "item_7i9m9L": {
+        "item_c8mXQV": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Section_1.png",
-            "column_size": "3",
+            "video": "shopify://files/videos/OP.mp4",
+            "column_size": "4",
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -353,11 +225,24 @@
             "link_style": "link"
           }
         },
-        "item_hHUYR3": {
+        "item_WrcJLx": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Section_3.png",
-            "column_size": "3",
+            "video": "shopify://files/videos/snaptik_7241156366080003355_v2.mp4",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ABXfPN": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/snaptik_7348711891260198150_hd.mp4",
+            "column_size": "4",
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -368,9 +253,10 @@
         }
       },
       "block_order": [
-        "item_dzbrPM",
-        "item_7i9m9L",
-        "item_hHUYR3"
+        "item_Qt4apw",
+        "item_c8mXQV",
+        "item_WrcJLx",
+        "item_ABXfPN"
       ],
       "name": "Multi-column",
       "settings": {
@@ -378,8 +264,8 @@
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "center",
-        "subheading": "The first pre-cut kinesiology tape designed to keep up with you — durable, waterproof, and ready in seconds.",
-        "title": "Move Freely, Stay Supported",
+        "subheading": "",
+        "title": "Vos héros prennent vie sous vos yeux 🔥",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -418,43 +304,51 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "faq_wPCcDR": {
+    "faq_RF9WfF": {
       "type": "faq",
       "blocks": {
-        "item_LJpMg7": {
+        "item_FXq6q9": {
           "type": "item",
           "settings": {
-            "title": "Do I need experience with kinesiology tapes ?",
-            "content": "<p><strong>No worries – not at all!</strong><br/><br/>That’s exactly why <strong>STRAPEX™</strong> was created. Our tapes come <em>pre-cut</em> and perfectly shaped to fit your joint — no medical knowledge needed.<br/><br/>Just apply it, and let the smart design and flexible material do the work for you.</p>"
+            "title": "En combien de temps vais-je recevoir ma commande ?",
+            "content": "<p>Nos coques sont expédiées sous 24 à 48h et livrées en <strong>3 à 5 jours ouvrés</strong>.<br/></p><p>Un mail de suivi sera envoyé après l'expédition de la commande.</p>"
           }
         },
-        "item_wtBXQN": {
+        "item_yt8J7j": {
           "type": "item",
           "settings": {
-            "title": "How tight should I apply the tape ?",
-            "content": "<p>Apply the tape with <strong>light tension</strong> — it’s made to <strong>support</strong>, not to squeeze.<br/></p><p>Make sure it feels <strong>comfortable</strong>, doesn’t restrict your circulation, and lies <strong>smoothly on the skin</strong> without wrinkles.</p>"
+            "title": "Ma coque est-elle compatible avec mon modèle de téléphone ?",
+            "content": "<p>Oui !<br/>Nos coques sont disponibles pour la majorité des modèles <strong>iPhone et Samsung</strong>.<br/>Il te suffit de sélectionner ton modèle dans le menu déroulant.</p><p>Les autres marques de téléphone seront bientôt disponible.</p>"
           }
         },
-        "item_m4E3N3": {
+        "item_dWjeWk": {
           "type": "item",
           "settings": {
-            "title": "What makes STRAPEX™ different from regular tape rolls ?",
-            "content": "<p>Simple — <strong>no cutting, no guessing, no hassle.</strong><br/><br/>STRAPEX™ comes <strong>pre-cut and ergonomically designed</strong>, ready to use in seconds.<br/><br/>You’ll save time, avoid mistakes, and get the <strong>exact support your joints need.</strong><br/><br/>It’s a total <strong>game-changer</strong>, especially for beginners.</p>"
+            "title": "La coque protège-t-elle bien mon téléphone ?",
+            "content": "<p>100%.<br/><br/>Elle est conçue avec des matériaux premium :</p><ul><li><strong>anti-rayures</strong><br/></li><li><strong>anti-chocs</strong><br/></li><li><strong>coins renforcés</strong><br/></li><li><strong>texture grip</strong><br/><br/>Tu gardes le style <em>et</em> la sécurité.</li></ul>"
           }
         },
-        "item_3RQ3jd": {
+        "item_9zUGft": {
           "type": "item",
           "settings": {
-            "title": "Is the tape suitable for sensitive skin ?",
-            "content": "<p>Absolutely. <strong>STRAPEX™</strong> is made from <strong>skin-friendly, latex-free materials</strong>, specially developed for sensitive skin.<br/><br/>Many of our customers report <strong>no irritation or itching</strong>, even after wearing it for several days.</p>"
+            "title": "Les couleurs sont-elles fidèles aux images ?",
+            "content": "<p>Oui, les impressions sont <strong>ultra-HD</strong>, éclatantes et profondes.<br/><br/>Chaque design est optimisé pour un rendu net et vibrant.</p>"
+          }
+        },
+        "item_3BgLGE": {
+          "type": "item",
+          "settings": {
+            "title": "L’effet 3D lenticulaire fonctionne vraiment ?",
+            "content": "<p>Oui, et c’est ce qui fait la magie.<br/><br/>L’image change selon l’angle de vue : <strong>ton perso prend vie</strong> à chaque mouvement du téléphone.</p>"
           }
         }
       },
       "block_order": [
-        "item_LJpMg7",
-        "item_wtBXQN",
-        "item_m4E3N3",
-        "item_3RQ3jd"
+        "item_FXq6q9",
+        "item_yt8J7j",
+        "item_dWjeWk",
+        "item_9zUGft",
+        "item_3BgLGE"
       ],
       "name": "FAQ",
       "settings": {
@@ -475,7 +369,7 @@
         "heading_gradient": "",
         "button_background": "#ffffff",
         "button_text_color": "",
-        "accordion_background": "#ffffff",
+        "accordion_background": "#1e1e1e",
         "accordion_text_color": ""
       }
     },
@@ -545,14 +439,11 @@
   },
   "order": [
     "main",
-    "multi_column_VbCPaJ",
-    "image_with_text_overlay_feVnJT",
-    "video_ELRdBK",
-    "image_with_text_overlay_fp4Wwe",
-    "media_with_text_qb3B8k",
-    "multi_column_cpmKbh",
+    "logo_list_zULJ6c",
+    "image_with_text_overlay_Xdcfhb",
+    "multi_column_yDmWF9",
+    "faq_RF9WfF",
     "17606244984ab7a41b",
-    "faq_wPCcDR",
     "rich_text_XfMtHV",
     "rich_text_ztPPMx",
     "1752694729d35dcaf4",
